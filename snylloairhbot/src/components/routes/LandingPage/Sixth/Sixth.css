@@ -1,0 +1,72 @@
+/* src/components/routes/LandingPage/Sixth/Sixth.css */
+
+
+
+.sixth-page-content{
+    background-color: #380E0A;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+
+.forth-page-left{
+    width:50%;
+}
+
+.snylloair-hbots{
+    margin-top: 3rem;
+
+}
+
+
+.sixth-page-right{
+    width:50%;
+}
+
+.sixth-right-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.sixth-right-icon-drop{
+    height: 4rem;
+}
+
+.sixth-right-icon-question{
+    margin: auto;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.sixth-right-content{
+    margin: auto;
+    margin-top: 7rem;
+    margin-left: 4rem;
+    width: 80%;
+    color: white;
+    text-align: start;
+
+}
+
+.sixth-machine-name{
+    font-size: 2rem;
+    font-weight: 600;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.sixth-heading{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.sixth-caption{
+    font-size: 1.1rem;
+    color: rgb(180, 179, 179);
+    text-align: start;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,57 @@
+/* src/components/routes/LandingPage/Forth/Forth.css */
+
+.forth-page-content{
+    background-color: #380E0A;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+
+.forth-page-left{
+    width:50%;
+}
+
+.snylloair-red-machine{
+    margin-top: 3rem;
+
+}
+
+
+.forth-page-right{
+    width:50%;
+}
+
+.forth-right-content{
+    margin: auto;
+    margin-top: 7rem;
+    margin-left: 4rem;
+    width: 80%;
+    color: white;
+    text-align: start;
+
+}
+
+.forth-machine-name{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    
+}
+
+.forth-heading{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.forth-caption{
+    font-size: 1.1rem;
+    color: rgb(180, 179, 179);
+    text-align: start;
+    line-height: 1.5rem;
+}

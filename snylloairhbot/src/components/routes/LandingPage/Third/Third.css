@@ -1,0 +1,45 @@
+/* src/components/routes/LandingPage/Third/Third.css */
+
+
+.third-page-content{
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.third-page-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+}
+
+.third-page-box{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 30%;
+    margin: auto;
+    margin-top: 4rem;
+
+}
+
+.box-icon {
+    margin-bottom: 10px;
+  }
+
+  .snylloair-third{
+    width: 2.5rem;
+  }
+  
+  .box-heading {
+    margin-bottom: 5px;
+    font-size:larger;
+    font-weight:500;
+  }
+  
+  .box-caption{
+    margin-top: 5px;
+    color: gray;
+
+  }

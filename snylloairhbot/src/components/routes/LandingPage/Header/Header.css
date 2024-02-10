@@ -1,0 +1,83 @@
+/* src/components/routes/LandingPage/Header/Header.css */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    
+}
+
+
+.hbot_header{
+    background-color: #000000dc;
+    z-index: 1000;
+
+}
+
+.snylloair-logo{
+    height: 55%;
+    width:10rem;
+    margin: 10%;
+    margin-left: 35%;
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    margin-left:20%;
+}
+
+.button-h{
+    text-decoration: none;
+    color: white;
+    margin:5px;
+    margin-left:25px;
+
+}
+
+
+/* Styles for dropdown */
+.dropdown {
+    position: relative;
+    margin: 5px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00000062;
+    min-width: 175px;
+    text-align: center;
+    z-index: 1;
+    margin-top: 1px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+

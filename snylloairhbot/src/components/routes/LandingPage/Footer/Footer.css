@@ -1,0 +1,54 @@
+/* src/components/routes/LandingPage/Footer/Footer.css */
+
+.footer-container{ 
+    background-color: #380E0A;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -0.25rem;
+}
+
+.snylloair-footer{
+    width:13rem;
+    height:9rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer-column-one{
+    margin-top: 1.5rem;
+}
+
+.footer-column-two,
+.footer-column-three,
+.footer-column-four{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: start;
+}
+
+.footer-column-two >h3,
+.footer-column-three >h3,
+.footer-column-four >h3{
+    font-size:1.5rem;
+    color:#CE3B3C;   
+}
+
+.linkis{
+    text-decoration: none;
+    line-height: 1.5; 
+    font-size: 1rem;
+    margin-top:1.25rem;
+}
+
+.button-footer{
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.1rem;
+}
+
+.button-footer:hover{
+    color:#CE3B3C;
+}
+

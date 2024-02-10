@@ -1,0 +1,127 @@
+/* src/components/routes/LandingPage/FormContact/FormContact.css */
+
+
+.formContact-page{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -0.5rem;
+
+}
+
+.formContact-left-content{
+    width:40%;
+}
+
+.formContact-left{
+    width:100%;
+    margin-top: 0.5rem;
+}
+
+.formContact-right-content{
+    width:60%;
+    
+}
+
+.formContact-container{
+    width: 80%;
+    margin: auto ;
+    margin-top: 1rem;
+}
+
+.formContact-heading{
+    margin: auto;
+    font-weight: 700;
+    text-align: left;
+}
+
+.formContact-line1{
+    font-size:2.25rem;
+    color:#CE3B3C;
+}
+
+.formContact-line2{
+    font-size:2.25rem;
+    color: rgb(46, 46, 45);
+}
+
+.formContact-line3{
+    font-size:1.15rem;
+    font-weight: 400;
+    color: gray;
+}
+
+#formContact-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+  }
+  
+  input {
+    width: calc(50% - 0.5rem); /* Adjusted width to fit two inputs in a row with a small gap */
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(172, 171, 171);
+    margin: 1rem;
+    margin-left: 0;
+  }
+
+  .country{
+    width: 52%;
+    height:25%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: 1px solid;
+    border-color: gray;
+    color: rgb(66, 62, 57);
+
+  }
+
+  .profession-bookForm {
+    width: calc(100% - 2rem); /* Adjusted width to fit the full length */
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 1.5rem; 
+    border: 1px solid;
+    border-color: rgb(172, 171, 171);
+  }
+
+  .message-bookForm {
+    width: calc(100% - 3rem); /* Adjusted width to fit the full length */
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 2rem; 
+    border: 1px solid;
+    border-color: rgb(172, 171, 171);
+  }
+  
+  .bookFormbutton {
+    width: 95%; /* Adjusted width to fit the full length */
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.75rem;
+    background-color: #ce3b3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bookFormbutton:hover {
+    background-color: #380e0a;
+  }
+  

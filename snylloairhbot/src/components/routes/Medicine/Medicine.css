@@ -1,0 +1,51 @@
+/* src/components/routes/Meidicine/Medicine.css */
+
+
+
+.medicine-cotainer-mechanisms{
+    margin: 1rem;
+
+}
+
+.medicine-cotainer-mechanisms-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #CE3B3C;
+    margin-top: 6rem;
+}
+
+.mechanism-hbot{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.our-color{
+    color: #CE3B3C;
+
+}
+
+/* ********** */
+
+.medicine-history {
+    width: 100%;
+    border-radius: 5px;
+}
+  
+.history-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgb(124, 124, 124);
+}
+  
+
+.history{
+  margin: auto;
+  margin-left: 2rem;
+  padding: 4rem;
+  height: 130vh;
+  width:auto;
+}

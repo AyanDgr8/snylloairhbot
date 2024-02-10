@@ -1,0 +1,49 @@
+/* src/components/routes/LandingPage/Eleventh/Eleventh.css */
+
+.eleventh-page{
+    width:100%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.eleventh-page-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #CE3B3C;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.eleventh-page-subheading{
+    margin-top: 1rem;
+    color: gray;
+    font-size: 1.25rem;
+}
+
+.eleventh-boxes{
+    margin: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+    
+}
+
+.eleventh-box{
+    text-align: left;
+    width:75%;
+    padding:  1rem;
+}
+
+.eleventh-box-heading{
+    font-size: larger;
+    font-weight: 500;
+    
+}
+
+.eleventh-box-para{
+    font-size: medium;
+    color: gray;
+    margin-top: 0.5rem;
+}

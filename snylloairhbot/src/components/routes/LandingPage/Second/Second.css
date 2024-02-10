@@ -1,0 +1,57 @@
+/* src/components/routes/LandingPage/Second/Second.css */
+
+.second-page-content{
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: auto;
+}
+
+.second-page-left{
+    width:50%;
+}
+
+.snylloair-capsule{
+    width:35rem;
+    margin-top: 6rem;
+}
+
+.second-page-right{
+    width:50%;
+}
+
+.second-page-right-heading{
+    margin-top: 10rem;
+    margin-left: 3rem;
+    
+}
+
+
+.second-page-right-heading h3{
+    margin: auto;
+    color: #CE3B3C;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.second-page-right-heading-line1{
+    font-weight: 600;
+
+}
+
+.snylloair-text{
+    font-weight: 800;
+
+}
+
+.second-page-right-heading h2{
+    margin: auto;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    text-align: left;
+}

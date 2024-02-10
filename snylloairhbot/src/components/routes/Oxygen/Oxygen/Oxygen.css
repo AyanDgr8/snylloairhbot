@@ -1,0 +1,238 @@
+/* src/components/routes/Oxygen/Oxygen.css */
+
+
+
+.oxygen-container-one {
+    position: relative;
+    height: 100vh;
+}
+
+.oxygen-bg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    transform: rotate(-180deg);
+    z-index: -1;
+}
+
+.oxygen-container-one-content {
+    position: absolute;
+    margin:auto;
+    margin-top: 12.5rem; 
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.oxygen-container-one-line1{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.oxygen-container-one-line2{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+
+}
+.oxygen-container-one-line3 {
+    font-size:1.1rem;
+    width:60%;
+    margin:auto;
+    color: rgb(201, 198, 198);
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+
+
+
+/* ****************** */
+
+
+
+.oxygen-container-two {
+    position: relative;
+    height: 110vh;
+}
+
+
+.oxygen-bg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:140vw;
+    height: 120vh;
+    z-index: -1;
+}
+
+
+
+.oxygen-container-two-content {
+    position: absolute;
+    margin:auto;
+    margin-top: 3rem; 
+    margin-left: 7.5rem;
+    z-index: 1; 
+    color: white;
+    text-align: start;
+    padding: 20px;
+    width:50%;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+    
+}
+
+.oxygen-container-two-line1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color:#CE3B3C;
+    
+}
+.oxygen-container-two-line2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    width:60%;
+    /* font-style: italic; */
+    margin-bottom: 3rem;
+    color: #460c07;
+}
+.oxygen-container-two-paras {
+    font-size:1rem;
+    width:65%;
+    color:#5a5959;
+    line-height: 1.5vw;
+    
+}
+
+
+/* ************ */
+
+
+.oxygen-container-three {
+    margin: auto;
+    margin-top: 3.75rem;
+    height: 100vh;
+    background-color: #D5CFD1;
+    display: flex;
+    flex-direction: row;
+}
+
+.oxygen-container-three-left{
+    width:50%;
+}
+
+.pink-mask{
+    width:37rem;
+    height: auto;
+    margin: auto;
+}
+
+.oxygen-container-three-right{
+    width:50%;
+}
+
+.oxygen-container-three-right-content{
+    width:90%;
+    text-align: start;
+    margin: auto;
+    margin-top: 3rem;
+    margin-left: 0;
+}
+
+.oxygen-container-three-right-heading{
+    font-size: 2.5rem;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+    font-weight:700;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    color: #460c07;
+    
+}
+
+
+.oxygen-container-three-right-para{ 
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.75vw;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+    color: #585555;
+
+}
+
+
+/* **************** */
+
+.oxygen-container-four{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+.oxygen-container-four-left{
+    width:50%;
+    background-color: #3a3d46;
+    background-color: #380E0A;
+}
+
+
+.oxygen-container-four-right{
+    width:50%;
+    background-color: #fdcfcf;
+    
+}
+
+.oxygen-container-four-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.o2-l{
+    color:white ;
+}
+
+.o2-r{
+    color: #460c07;
+}
+
+
+
+.oxygen-container-four-paras{
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.8vw;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+
+
+.o2-ll{
+    color: rgb(184, 181, 181);
+}
+
+.o2-rr{
+    color: #460c07;
+}
+
+.oxygen-container-four-divider {
+    width: 350px; 
+    height: 1px;
+    background-color: white; 
+    margin: 10px auto; 
+}
+
+.oxygen-container-four-divider1{
+    width: 350px; 
+    height: 1px;
+    background-color: #460c07; 
+    margin: 10px auto; 
+}

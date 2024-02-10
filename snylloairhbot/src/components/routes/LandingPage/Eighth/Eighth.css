@@ -1,0 +1,61 @@
+/* src/components/routes/LandingPage/Eighth/Eighth.css */
+
+.eighth-page-content{
+    width:100%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.eighth-page-heading{
+    color: #CE3B3C;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.eighth-page-para{
+    max-width: 53%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight: 400;
+    color: gray;
+}
+
+
+.slider-buttons button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    color: gray;
+}
+
+
+.slider-buttons button.active{
+    color: #CE3B3C;
+    font-weight: 600;
+    
+}
+
+.slider-buttons button:hover{
+    color: #CE3B3C;
+}
+
+
+.slider-three{
+    margin: 8rem;
+    margin-top: 2rem;
+}
+
+.slick-slide img {
+    height: 30rem;
+    width: auto;
+    margin: auto;
+
+} 

@@ -1,0 +1,48 @@
+/* src/components/routes/LandingPage/Seventh/Seventh.css */
+
+
+.seventh-page-content{
+    width:100%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.seventh-page-heading{
+    color: #CE3B3C;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.seventh-page-boxes{
+    width:1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.seventh-page-box{
+    width:20%;
+    margin: 1rem;
+    
+}
+
+.seventh-icon{
+    width:4rem;
+}
+
+.seventh-box-subheading{
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.seventh-box-caption{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    color: gray;
+}

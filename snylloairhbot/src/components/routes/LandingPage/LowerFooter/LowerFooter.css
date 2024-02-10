@@ -1,0 +1,14 @@
+/* src/components/routes/LandingPage/LowerFooter/LowerFooter.css */
+
+
+.lower-footer-content{
+    margin: 2rem;
+    margin-top: 1rem;
+}
+
+.lower-footer-lines{
+    margin: auto;
+    margin-top: 1rem;
+    color: black;
+    font-weight: 500;
+}

@@ -1,0 +1,34 @@
+/* src/components/routes/LandingPage/Fifth/Fifth.css */
+
+
+.fifth-page-content{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: auto;
+
+}
+
+.fifth-page-left{
+    width:50%;
+}
+
+.snylloair-capsule{
+    width:35rem;
+    margin-top: 5rem;
+}
+
+.fifth-page-right{
+    width:50%;
+}
+
+.fifth-page-right-para{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    color:gray;
+    width:80%;
+}

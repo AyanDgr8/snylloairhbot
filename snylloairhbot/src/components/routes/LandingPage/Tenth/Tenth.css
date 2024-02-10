@@ -1,0 +1,71 @@
+/* src/components/routes/LandingPage/Tenth/Tenth.css */
+
+
+
+.tenth-page-content{
+    background-color: #380E0A;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 4.5rem;
+
+}
+
+.tenth-page-left{
+    width:50%;
+}
+
+.oxygen-guy{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 30rem;
+
+}
+
+
+.tenth-page-right{
+    width:50%;
+}
+
+.tenth-right-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.tenth-right-icon-drop{
+    height: 4rem;
+    margin-bottom: -0.25rem;
+}
+
+.tenth-right-icon-question{
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.tenth-right-content{
+    margin: auto;
+    margin-top: 7rem;
+    margin-left: 4rem;
+    width: 80%;
+    color: white;
+    text-align: start;
+}
+
+
+.tenth-heading{
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.tenth-caption{
+    font-size: 1.1rem;
+    color: rgb(180, 179, 179);
+    text-align: start;
+}
