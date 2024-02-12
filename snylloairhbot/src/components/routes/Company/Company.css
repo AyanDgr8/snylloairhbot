@@ -1,1 +1,96 @@
 /* src/components/routes/Company/Company.css */
+
+
+
+.company-container-one {
+    position: relative;
+    height: 100vh;
+    margin-top: 1vh;
+}
+
+.company{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:99vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+.company-container-one-content {
+    position: absolute;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+    margin:auto;
+    margin-left: 5%;
+    margin-top: 10rem; 
+    z-index: 1; 
+    color: white;
+    text-align: left;
+    padding: 20px;
+    width: 45%;
+}
+
+.company-container-one-line1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+
+.company-container-one-line2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 2rem;
+    line-height: 4vh;
+}
+
+
+
+
+/* *********** */
+
+
+.company-container-two{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #710B0B;
+}
+
+.company-two-left{
+    width:50%;
+}
+
+.catch{
+    height:100vh;
+    margin-left: -15%;
+}
+
+.company-two-right{
+    width:50%;
+}
+
+.company-two-right-content{
+    text-align: left;
+    width:80%;
+    color: white;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.company-content-line1{
+    font-size: 2.75rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.company-content-line2{
+    font-size: 1.1rem;
+    line-height: 4vh;
+}
+

@@ -7,6 +7,7 @@
     flex-direction: row;
     margin: auto;
     margin-top: -0.5rem;
+    background-color: white;
 
 }
 
@@ -16,7 +17,7 @@
 
 .formContact-left{
     width:100%;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
 }
 
 .formContact-right-content{
@@ -100,7 +101,7 @@
   }
 
   .message-bookForm {
-    width: calc(100% - 3rem); /* Adjusted width to fit the full length */
+    width: calc(100% - 3rem); 
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid;
@@ -110,9 +111,10 @@
   }
   
   .bookFormbutton {
-    width: 95%; /* Adjusted width to fit the full length */
-    margin-top: 1rem;
+    width: 95%; 
+    margin-top: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 1rem;
     padding: 0.75rem;
     background-color: #ce3b3c;
     color: white;

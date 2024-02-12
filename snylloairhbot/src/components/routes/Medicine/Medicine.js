@@ -1,6 +1,7 @@
 // src/components/routes/Meidicine/Medicine.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import './Medicine.css';
 import Header from '../LandingPage/Header/Header';
 import Footer from '../LandingPage/Footer/Footer';
@@ -63,11 +64,14 @@ const Medicine = () => {
 
             <section className='medicine-history'>
                 <div className='history-heading'>History of Hyperbaric Medicine</div>
-                <img 
-                src="/uploads/history.png"
-                className='history'
-                alt="history"
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/history.png"
+                    className='history'
+                    alt="history"
+                    />
+                </LazyLoad>
+                
             </section>
 
 

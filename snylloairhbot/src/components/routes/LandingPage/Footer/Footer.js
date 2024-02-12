@@ -30,7 +30,7 @@ const Footer = () => {
                         </a>
 
                         <a href="#" className='linkis' onClick={scrollToTop}>
-                            <Link to="/products" className="button-footer" rel="noopener noreferrer">Chamber</Link> 
+                            <Link to="/product" className="button-footer" rel="noopener noreferrer">Chamber</Link> 
                         </a>
                     </div>
 
@@ -39,15 +39,15 @@ const Footer = () => {
                         <h3>Treatments</h3>
 
                         <a href="#"  className='linkis' onClick={scrollToTop}>
-                            <Link to="/applications" className="button-footer"  rel="noopener noreferrer">Sports</Link>
+                            <Link to="/oxygen/sports" className="button-footer"  rel="noopener noreferrer">Sports</Link>
                         </a>
 
                         <a href="#" className='linkis' onClick={scrollToTop}>
-                            <Link to="/applications" className="button-footer" rel="noopener noreferrer">Beauty & Welness</Link> 
+                            <Link to="/oxygen/welness" className="button-footer" rel="noopener noreferrer">Beauty & Welness</Link> 
                         </a> 
 
                         <a href="#" className='linkis' onClick={scrollToTop}>
-                            <Link to="/applications" className="button-footer" rel="noopener noreferrer">Anti-aging</Link> 
+                            <Link to="/oxygen/anti-aging" className="button-footer" rel="noopener noreferrer">Anti-aging</Link> 
                         </a>
 
                     </div>
@@ -60,7 +60,21 @@ const Footer = () => {
                             <Link to="/faq" className="button-footer" rel="noopener noreferrer">FAQs</Link>
                         </a>
                         <a href="#"  className='linkis' onClick={scrollToTop}>  
-                            <Link to="/company" className="button-footer" rel="noopener noreferrer">Company</Link>
+                            <Link to="/company" className="button-footer" rel="noopener noreferrer">About Us</Link>
+                        </a>
+                    </div>
+
+                    
+
+
+                    <div className='footer-column-five'>
+                        <h3>Social Media</h3>
+
+                        <a href="#" className='linkis' onClick={scrollToTop}>  
+                            <Link to="/faq" className="button-footer" rel="noopener noreferrer">FAQs</Link>
+                        </a>
+                        <a href="#"  className='linkis' onClick={scrollToTop}>  
+                            <Link to="/company" className="button-footer" rel="noopener noreferrer">About Us</Link>
                         </a>
                     </div>
 

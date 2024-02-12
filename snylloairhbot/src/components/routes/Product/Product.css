@@ -6,7 +6,7 @@
 .product-container-one {
     position: relative;
     height: 100vh;
-    margin-top: 11vh;
+    margin-top: 1vh;
 }
 
 .machine-product{
@@ -23,7 +23,7 @@
     position: absolute;
     margin:auto;
     margin-left: 2.5%;
-    margin-top: 4rem; 
+    margin-top: 6rem; 
     z-index: 1; 
     color: white;
     text-align: left;
@@ -80,3 +80,130 @@
     cursor: pointer;
 
 }
+
+
+
+/* ******** */
+
+
+.product-container-two{
+    position: relative;
+    height: 120vh;
+    width:100%;
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.red-tunnel{
+    position: relative; 
+    height: 120vh;
+    width: 110%;
+    margin-left: -5%;
+    margin-top: 4vh;
+    z-index: -1;
+}
+
+
+
+
+.product-container-two-content {
+    position: absolute; 
+    top: 20%; 
+    left: 55%; 
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.product-container-two-line1{
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+
+.product-container-two-line2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+
+.product-container-two-line3 {
+    font-size:1.1rem;
+    width:80%;
+    margin:auto;
+    margin-left: 0;
+    font-weight: 100;
+    line-height: 4vh;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+
+
+/* ************ */
+
+
+.product-container-three{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product-container-three-left{
+    width:50%;
+}
+
+.mat{
+    height: 85vh;
+    width: auto;
+}
+
+.product-container-three-right{
+    width:50%;
+}
+
+
+
+.product-container-three-content {
+    position: absolute; 
+    top: 15%; 
+    left: 55%; 
+    text-align: left;
+    padding: 20px;
+}
+
+.product-container-three-line1{
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: #CE3B3C;
+
+}
+
+.product-container-three-line2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 2rem;
+    color: #380E0A;
+}
+
+
+.product-container-three-line3 {
+    font-size:1.1rem;
+    width:80%;
+    margin:auto;
+    margin-left: 0;
+    font-weight: 100;
+    line-height: 4vh;
+    color: gray;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+

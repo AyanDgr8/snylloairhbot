@@ -1,6 +1,7 @@
 /* src/components/routes/LandingPage/Footer/Footer.css */
 
 .footer-container{ 
+    height: 60vh;
     background-color: #380E0A;
     display: flex;
     flex-direction: row;
@@ -9,37 +10,37 @@
 }
 
 .snylloair-footer{
-    width:13rem;
-    height:9rem;
-    margin-left: 4rem;
-    margin-bottom: 2rem;
-}
-
-.footer-column-one{
-    margin-top: 1.5rem;
+    width:14rem;
+    height:11rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
 }
 
 .footer-column-two,
 .footer-column-three,
-.footer-column-four{
+.footer-column-four,
+.footer-column-five{
     display:flex;
     flex-direction: column;
-    margin: auto;
+    margin-left: 2rem;
     align-items: start;
+    width:12rem;
 }
 
 .footer-column-two >h3,
 .footer-column-three >h3,
-.footer-column-four >h3{
+.footer-column-four >h3,
+.footer-column-five >h3{
     font-size:1.5rem;
+    margin-top: 4rem;
     color:#CE3B3C;   
 }
 
 .linkis{
     text-decoration: none;
-    line-height: 1.5; 
+    line-height: 1.25; 
     font-size: 1rem;
-    margin-top:1.25rem;
+    margin-top:1rem;
 }
 
 .button-footer{
