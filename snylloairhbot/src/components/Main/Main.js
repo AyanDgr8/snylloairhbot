@@ -6,7 +6,7 @@ import Medicine from '../routes/Medicine/Medicine';
 import Oxygen from '../routes/Oxygen/Oxygen/Oxygen';
 import Sports from '../routes/Oxygen/Sports/Sports';
 import Welness from '../routes/Oxygen/Welness/Welness';
-import Aging from '../routes/Oxygen/Welness/Welness';
+import Aging from '../routes/Oxygen/Aging/Aging';
 import Product from '../routes/Product/Product';
 import Company from '../routes/Company/Company';
 import Faq from '../routes/Faq/Faq';

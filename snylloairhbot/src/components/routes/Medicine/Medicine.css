@@ -49,3 +49,40 @@
   height: 130vh;
   width:auto;
 }
+
+
+/* *********** */
+
+.medicine-clinic-contra{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -4.25rem;
+}
+
+.medicine-sec-two-left{
+    width: 50%;
+    margin-bottom: -3rem;
+}
+
+.clinic{
+    width:90%;
+    height: 90vh;
+    margin-left: -5rem;
+    margin-bottom: 0;
+}
+
+.medicine-sec-two-right{
+    width: 50%;
+    margin-bottom: -5rem;
+}
+
+.contra{
+    width:80%;
+    height: 55vh;
+    margin-left: -5rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}

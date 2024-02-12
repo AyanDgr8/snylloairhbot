@@ -15,6 +15,8 @@ import Ninth from './Ninth/Ninth';
 import Tenth from './Tenth/Tenth';
 import Eleventh from './Eleventh/Eleventh';
 
+import Video from  './Video/Video';
+
 
 import Footer from './Footer/Footer';
 import LowerFooter from './LowerFooter/LowerFooter';
@@ -35,6 +37,7 @@ export default function Home(){
                 <Third />
                 <Sixth />
                 <Seventh />
+                <Video />
                 <Eighth />
                 <Tenth />
                 <Ninth />

@@ -147,7 +147,7 @@ const Sports = () =>{
 
             <section className="sports-container-six">
                 <img 
-                src="/uploads/blood-cells.png"
+                src="/uploads/blood.png"
                 className='red-bg'
                 alt="Red Background Image"
                 />

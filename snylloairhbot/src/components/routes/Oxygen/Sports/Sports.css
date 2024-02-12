@@ -176,7 +176,7 @@
     display: flex;
     flex-direction: row;
     background-color: #603564;
-    background-color: #aaaaaa;
+    background-color: white;
 }
 
 .sports-container-four-left {
@@ -203,14 +203,14 @@
     font-size: 3rem;
     font-weight: 700;
     margin-left: -2.75rem;
-    color: white;
+    color: #380E0A;
 }
 
 .injuries {
     font-size: 1.5rem;
     font-weight: 400;
     padding-bottom: 2rem;
-    color: white;
+    color: gray;
 }
 
 
@@ -281,15 +281,16 @@
 
 .sports-container-six{
     position: relative;
-    height: 80vh;
+    height: 50vh;
     width: 100vh;
-    margin-top: 0;
+    margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
+
 .red-bg{
     position: relative;
-    height:80vh;
+    height:50vh;
     width:400%;
     opacity: 0.95;
     z-index: -1;
@@ -300,12 +301,13 @@
     position: absolute;
     margin:auto;
     text-align: center;
-    margin-top: -25rem; 
+    margin-top: -18rem; 
     margin-left: 3rem;
     z-index: 1; 
     width: 200%;
     color: white;
 }
+
 
 .sports-container-six-line1{
     font-size: 4rem;
@@ -314,14 +316,14 @@
     margin-left: 10rem;
     margin-bottom: 1rem;
     width:75%;
-
 }
 
 .sports-container-six-line2{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin: auto;
     margin-left:12rem;
     width:70%;
+    color: white;
 }
 
 
@@ -367,7 +369,7 @@
 
 .sports-container-seven-paras{
     font-size: 1.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: gray;
 }
 
@@ -379,9 +381,9 @@
 }
 
 .sports-container-seven-para{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
-    color: #CE3B3C;
+    color: #690900;
 
 }

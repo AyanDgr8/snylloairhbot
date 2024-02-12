@@ -46,7 +46,7 @@ const Header = () =>{
                         
                     </div>
                     <Link to="/product" className="button-h" rel="noopener noreferrer" onClick={scrollToTop}>
-                    Products
+                    Product
                     </Link>
                     <Link to="/company" className="button-h" rel="noopener noreferrer" onClick={scrollToTop}>
                     About Us

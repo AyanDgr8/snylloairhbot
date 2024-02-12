@@ -1,0 +1,54 @@
+/* src/components/routes/Oxygen/Welness/Welness.css */
+
+
+
+.welness-container-one {
+    position: relative;
+    height: 110vh;
+    /* background-color: rgba(139, 0, 0, 0.74); */
+}
+
+.beauty-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 110vh;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+
+.welness-container-one-content {
+    position: absolute;
+    margin:auto;
+    margin-top: 12.5rem; 
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.welness-container-one-line1{
+    font-size: 1.75rem;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+
+.welness-container-one-line2{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 55%;
+}
+
+.welness-container-one-line3 {
+    font-size:1.1rem;
+    width:60%;
+    margin:auto;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+

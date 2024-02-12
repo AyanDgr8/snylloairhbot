@@ -1,0 +1,82 @@
+/* src/components/routes/Product/Product.css */
+
+
+
+
+.product-container-one {
+    position: relative;
+    height: 100vh;
+    margin-top: 11vh;
+}
+
+.machine-product{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+.product-container-one-content {
+    position: absolute;
+    margin:auto;
+    margin-left: 2.5%;
+    margin-top: 4rem; 
+    z-index: 1; 
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.product-container-one-line1{
+    font-size: 1.75rem;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+
+.product-container-one-line2{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.product-container-one-line3 {
+    font-size:1.1rem;
+    width:42.5%;
+    margin:auto;
+    margin-left: 0;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+
+.butt{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    padding: 0.75rem;
+    width:10rem;
+    font-size: large;
+    border-radius: 0.5rem ;
+    border: 1px;
+}
+
+.butt-contact{
+    background-color: #CE3B3C;
+    color: white;
+}
+
+.butt-learn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+
+.butt:hover{
+    background-color: #da0303;
+    cursor: pointer;
+
+}

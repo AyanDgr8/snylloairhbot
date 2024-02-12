@@ -36,14 +36,18 @@ const Footer = () => {
 
 
                     <div className='footer-column-three'>
-                        <h3>Treatment</h3>
+                        <h3>Treatments</h3>
 
                         <a href="#"  className='linkis' onClick={scrollToTop}>
-                            <Link to="/applications" className="button-footer"  rel="noopener noreferrer">Physiological Effects</Link>
+                            <Link to="/applications" className="button-footer"  rel="noopener noreferrer">Sports</Link>
                         </a>
 
                         <a href="#" className='linkis' onClick={scrollToTop}>
-                            <Link to="/applications" className="button-footer" rel="noopener noreferrer">Applications</Link> 
+                            <Link to="/applications" className="button-footer" rel="noopener noreferrer">Beauty & Welness</Link> 
+                        </a> 
+
+                        <a href="#" className='linkis' onClick={scrollToTop}>
+                            <Link to="/applications" className="button-footer" rel="noopener noreferrer">Anti-aging</Link> 
                         </a>
 
                     </div>

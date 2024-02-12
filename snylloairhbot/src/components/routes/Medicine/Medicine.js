@@ -8,6 +8,7 @@ import LowerFooter from '../LandingPage/LowerFooter/LowerFooter';
 import Tenth from '../LandingPage/Tenth/Tenth';
 import Eleventh from '../LandingPage/Eleventh/Eleventh';
 import Eighth from '../LandingPage/Eighth/Eighth';
+import FormContact from '../LandingPage/FormContact/FormContact'
 
 const Medicine = () => {
     return(
@@ -67,8 +68,34 @@ const Medicine = () => {
                 className='history'
                 alt="history"
                 />
-                    
             </section>
+
+
+            {/* **************** */}
+
+
+            <section className='medicine-clinic-contra'>
+                <div className='medicine-sec-two-left'>
+                    <img 
+                    src="/uploads/clinic.png"
+                    className='clinic'
+                    alt ="clinic"
+                    />
+                </div>
+
+                <div className='medicine-sec-two-right'>
+                    <img 
+                    src="/uploads/contra.png"
+                    className='contra'
+                    alt ="contra"
+                    />
+                </div>
+
+
+            </section>
+
+            <FormContact />
+
             <Footer />
             <LowerFooter />
             
