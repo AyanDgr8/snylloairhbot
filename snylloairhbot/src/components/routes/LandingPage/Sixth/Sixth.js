@@ -2,28 +2,31 @@
 
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import './Sixth.css';
 
 const Sixth = () => {
     return(
         <div className="sixth-page-content">
             <div className="sixth-page-left">
-                <img 
-                src="/uploads/snylloair-hbots.png"
-                className='snylloair-hbots'
-                alt="snylloair-hbots"
-                >
-                </img>
+                <LazyLoad>
+                    <img 
+                    src="/uploads/snylloair-hbots.png"
+                    className='snylloair-hbots'
+                    alt="snylloair-hbots"
+                    />
+                </LazyLoad>
             </div>
             <div className="sixth-page-right">
                 <div className="sixth-right-content">
                     <div className="sixth-right-icon">
-                        <img 
-                        src="/uploads/sixth-right.png"
-                        className='sixth-right-icon-drop'
-                        alt="sixth-right-icon-drop"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/sixth-right.png"
+                            className='sixth-right-icon-drop'
+                            alt="sixth-right-icon-drop"
+                            />
+                        </LazyLoad>
                     </div>
                     <h3 className="sixth-right-icon-question">What's HBOT?</h3>
                     <div className="sixth-heading">

@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 import './Header.css';
 import { FaAngleDown } from 'react-icons/fa';
 
@@ -16,13 +17,15 @@ const Header = () =>{
 
                 <div className="logo-header-hbot">
                     <Link to="/" className="logo-link">
-                        <img
-                        src="/uploads/snylloair-logo.png"
-                        alt="snylloair-logo"
-                        className="snylloair-logo"
-                        rel="noopener noreferrer"
-                        onClick={scrollToTop}
-                        />
+                        <LazyLoad>
+                            <img
+                            src="/uploads/snylloair-logo.png"
+                            alt="snylloair-logo"
+                            className="snylloair-logo"
+                            rel="noopener noreferrer"
+                            onClick={scrollToTop}
+                            />
+                        </LazyLoad>
                     </Link>
                 </div>
                 <div className="header-buttons">

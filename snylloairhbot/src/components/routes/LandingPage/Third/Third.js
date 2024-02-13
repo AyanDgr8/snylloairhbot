@@ -1,6 +1,7 @@
 // src/components/routes/LandingPage/Third/Third.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import './Third.css';
 
 const Third = () =>{
@@ -11,12 +12,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon1.png"
-                        className='snyllo-air-icon1 snylloair-third'
-                        >
-                        </img>
-
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon1.png"
+                            className='snyllo-air-icon1 snylloair-third'
+                            alt="snylloicon1"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>Innovative Seal
 
@@ -28,11 +30,14 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon2.png"
-                        className='snyllo-air-icon2 snylloair-third'
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon2.png"
+                            className='snyllo-air-icon2 snylloair-third'
+                            alt="snylloicon2"
+                            />
+
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Portable Stretcher
@@ -44,11 +49,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon3.png"
-                        className='snyllo-air-icon3 snylloair-third'
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon3.png"
+                            className='snyllo-air-icon3 snylloair-third'
+                            alt="snylloicon3"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Panoramic View
@@ -61,12 +68,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon4.png"
-                        className='snyllo-air-icon4 snylloair-third'
-                        >
-                        </img>
-
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon4.png"
+                            className='snyllo-air-icon4 snylloair-third'
+                            alt="snylloicon4"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Ample Space, Premium Build
@@ -80,12 +88,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon5.png"
-                        className='snyllo-air-icon5 snylloair-third'
-                        >
-                        </img>
-
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon5.png"
+                            className='snyllo-air-icon5 snylloair-third'
+                            alt="snylloicon5"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Dual Control
@@ -99,11 +108,14 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
+                        <LazyLoad>
+
+                        </LazyLoad>
                         <img 
                         src="/uploads/snyllo-air-icon6.png"
                         className='snyllo-air-icon6 snylloair-third'
-                        >
-                        </img>
+                        alt="snylloicon6"
+                        />
 
                     </div>
                     <div className='box-heading'>
@@ -118,12 +130,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon7.png"
-                        className='snyllo-air-icon7 snylloair-third'
-                        >
-                        </img>
-
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon7.png"
+                            className='snyllo-air-icon7 snylloair-third'
+                            alt="snylloicon7"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Effortless Setup
@@ -137,12 +150,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon8.png"
-                        className='snyllo-air-icon8 snylloair-third'
-                        >
-                        </img>
-
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon8.png"
+                            className='snyllo-air-icon8 snylloair-third'
+                            alt="snylloicon8"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Rapid Pressure
@@ -156,12 +170,13 @@ const Third = () =>{
 
                 <div className='third-page-box'>
                     <div className='box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon9.png"
-                        className='snyllo-air-icon9 snylloair-third'
-                        >
-                        </img>
-
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon9.png"
+                            className='snyllo-air-icon9 snylloair-third'
+                            alt="snylloicon6"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='box-heading'>
                         Comfort Assurance

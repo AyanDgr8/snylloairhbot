@@ -2,6 +2,7 @@
 
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import Header from '../../LandingPage/Header/Header';
 import Footer from '../../LandingPage/Footer/Footer';
 import LowerFooter from '../../LandingPage/LowerFooter/LowerFooter';
@@ -15,11 +16,13 @@ const Oxygen = () => {
         <div>
             <Header />
             <section className='oxygen-container-one'>
-                <img 
-                src="/uploads/oxygen-bg1.jpg"
-                className='oxygen-bg1'
-                alt="Oxygen Background Image"
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/oxygen-bg1.jpg"
+                    className='oxygen-bg1'
+                    alt="Oxygen Background Image"
+                    />
+                </LazyLoad>
                 <div className='oxygen-container-one-content'>
                     <div className='oxygen-container-one-line1'>
                         Welcome a healthy breath of pure oxygen
@@ -34,11 +37,13 @@ const Oxygen = () => {
             </section>
 
             <section className='oxygen-container-two'>
-                <img 
-                src="/uploads/oxygen-bg2.jpg"
-                className='oxygen-bg2'
-                alt="Oxygen Background two Image"
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/oxygen-bg2.jpg"
+                    className='oxygen-bg2'
+                    alt="Oxygen Background two Image"
+                    />
+                </LazyLoad>
                 <div className='oxygen-container-two-content'>
                     <div className='oxygen-container-two-line1'>
                         Breathe wisely
@@ -55,11 +60,13 @@ const Oxygen = () => {
 
             <section className='oxygen-container-three'>
                 <div className='oxygen-container-three-left'>
+                    <LazyLoad>
                     <img 
                     src='/uploads/pink-mask.png'
                     className='pink-mask'
                     alt="pink mask"
                     />
+                    </LazyLoad>
                 </div>
                 <div className='oxygen-container-three-right'>
                     <div className='oxygen-container-three-right-content'>

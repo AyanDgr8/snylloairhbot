@@ -1,6 +1,7 @@
 // src/components/routes/Oxygen/Sports/Sports.js
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import FormContact from "../../LandingPage/FormContact/FormContact";
 import Header from '../../LandingPage/Header/Header';
 import Footer from '../../LandingPage/Footer/Footer';
@@ -15,11 +16,13 @@ const Sports = () =>{
         <div>
             <Header />
             <section className='sports-container-one'>
-                <img 
-                src="/uploads/king3.png"
-                className='king'
-                alt="Sports Background Image"
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/king3.png"
+                    className='king'
+                    alt="Sports Background Image"
+                    />
+                </LazyLoad>
                 <div className='sports-container-one-content'>
                     <div className='sports-container-one-line1'>
                         Your A game is just a few breaths away.
@@ -40,11 +43,13 @@ const Sports = () =>{
 
             <section className='sports-container-two'>
                 <div className='sports-container-two-left'>
-                    <img 
-                    src="/uploads/sports1.jpg"
-                    className='sports1'
-                    alt="Sports Container 2 Background Image"
-                    />
+                    <LazyLoad>
+                        <img 
+                        src="/uploads/sports1.jpg"
+                        className='sports1'
+                        alt="Sports Container 2 Background Image"
+                        />
+                    </LazyLoad>
                 </div>
                 <div className='sports-container-two-right'>
                     <div className='sports-container-two-line1'>
@@ -63,11 +68,13 @@ const Sports = () =>{
 
 
             <section className="sports-container-three">
-                <img 
-                    src="/uploads/kings.jpg"
-                    className="kings"
-                    alt="kings"
-                />
+                <LazyLoad>
+                    <img 
+                        src="/uploads/kings.jpg"
+                        className="kings"
+                        alt="kings"
+                    />
+                </LazyLoad>
 
                 <div className='sports-container-three-content'>
                     <div className='sports-container-three-line1'>
@@ -107,11 +114,13 @@ const Sports = () =>{
                 </div>
                     
                 <div className="sports-container-four-right">
-                    <img 
-                        src="/uploads/runner.png"
-                        className="bones-xray-normal "
-                        alt="bones-xray-normal"
-                    />
+                    <LazyLoad>
+                        <img 
+                            src="/uploads/runner.png"
+                            className="bones-xray-normal "
+                            alt="bones-xray-normal"
+                        />
+                    </LazyLoad>
                 </div>
 
             </section>
@@ -121,11 +130,13 @@ const Sports = () =>{
 
 
             <section className="sports-container-five">
-                <img 
-                src="/uploads/cheerful01.png"
-                className='cheerful'
-                alt="Cheerful Background Image"
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/cheerful01.png"
+                    className='cheerful'
+                    alt="Cheerful Background Image"
+                    />
+                </LazyLoad>
                 <div className='sports-container-five-content'>
                     <div className='sports-container-five-line1'>
                     Reduce recovery time and get back into play faster
@@ -146,11 +157,13 @@ const Sports = () =>{
 
 
             <section className="sports-container-six">
-                <img 
-                src="/uploads/blood.png"
-                className='red-bg'
-                alt="Red Background Image"
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/blood.png"
+                    className='red-bg'
+                    alt="Red Background Image"
+                    />
+                </LazyLoad>
                 <div className='sports-container-six-content'>
                     <div className='sports-container-six-line1'>
                     Hyperbaric Oxygen Therapy is as natural as breathing
@@ -190,11 +203,13 @@ const Sports = () =>{
                 </div>
 
                 <div className="sports-container-seven-right">
-                    <img 
-                    src="/uploads/jorginho.jpg"
-                    className="jorginho"
-                    alt="jorginho"
-                    />
+                    <LazyLoad>
+                        <img 
+                        src="/uploads/jorginho.jpg"
+                        className="jorginho"
+                        alt="jorginho"
+                        />
+                    </LazyLoad>
                 </div>
 
             </section>

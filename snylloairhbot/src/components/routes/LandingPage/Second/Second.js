@@ -1,6 +1,7 @@
 // src/components/routes/LandingPage/Second/Second.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import './Second.css';
 
 const Second = () =>{
@@ -8,12 +9,13 @@ const Second = () =>{
         <div>
             <div className='second-page-content'>
                 <div className='second-page-left'>
-                    <img 
-                    src="/uploads/snylloair-capsule.png"
-                    className='snylloair-capsule'
-                    alt="snylloair-capsule"
-                    >
-                    </img>
+                    <LazyLoad>
+                        <img 
+                        src="/uploads/snylloair-capsule.png"
+                        className='snylloair-capsule'
+                        alt="snylloair-capsule"
+                        />
+                    </LazyLoad>
 
                 </div>
                 <div className='second-page-right'>

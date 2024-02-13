@@ -2,18 +2,20 @@
 
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import './Forth.css';
 
 const Forth = () => {
     return(
         <div className="forth-page-content">
             <div className="forth-page-left">
-                <img 
-                src="/uploads/snylloair-red-machine.png"
-                className='snylloair-red-machine'
-                alt="snylloair-red-machine"
-                >
-                </img>
+                <LazyLoad>
+                    <img 
+                    src="/uploads/snylloair-red-machine.png"
+                    className='snylloair-red-machine'
+                    alt="snylloair-red-machine"
+                    />
+                </LazyLoad>
             </div>
             <div className="forth-page-right">
                 <div className="forth-right-content">

@@ -1,6 +1,7 @@
 // src/components/routes/LandingPage/Seventh/Seventh.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import './Seventh.css';
 
 const Seventh = () =>{
@@ -14,12 +15,14 @@ const Seventh = () =>{
 
                 <div className='seventh-page-box'>
                     <div className='seventh-box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon-1.png"
-                        className='snylloair-icon-1 seventh-icon'
-                        alt="snylloair-icon-1"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon-1.png"
+                            className='snylloair-icon-1 seventh-icon'
+                            alt="snylloair-icon-1"
+                            />
+
+                        </LazyLoad>
                     </div>
                     <div className='seventh-box-subheading'>
                         Sport Performance Enhancement
@@ -31,12 +34,13 @@ const Seventh = () =>{
 
                 <div className='seventh-page-box'>
                     <div className='seventh-box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon-2.png"
-                        className='snyllo-air-icon-2 seventh-icon'
-                        alt='snyllo-air-icon-2'
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon-2.png"
+                            className='snyllo-air-icon-2 seventh-icon'
+                            alt='snyllo-air-icon-2'
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='seventh-box-subheading'>
                         Anti-Aging and Wellness
@@ -48,12 +52,13 @@ const Seventh = () =>{
 
                 <div className='seventh-page-box'>
                     <div className='seventh-box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon-3.png"
-                        className='snyllo-air-icon-3 seventh-icon'
-                        alt='snyllo-air-icon-3'
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon-3.png"
+                            className='snyllo-air-icon-3 seventh-icon'
+                            alt='snyllo-air-icon-3'
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='seventh-box-subheading'>
                         Diving
@@ -65,12 +70,13 @@ const Seventh = () =>{
 
                 <div className='seventh-page-box'>
                     <div className='seventh-box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon-4.png"
-                        className='snyllo-air-icon-4 seventh-icon'
-                        alt='snyllo-air-icon-4'
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon-4.png"
+                            className='snyllo-air-icon-4 seventh-icon'
+                            alt='snyllo-air-icon-4'
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='seventh-box-subheading'>
                         Aviation
@@ -82,12 +88,13 @@ const Seventh = () =>{
 
                 <div className='seventh-page-box'>
                     <div className='seventh-box-icon'>
-                        <img 
-                        src="/uploads/snyllo-air-icon-5.png"
-                        className='snyllo-air-icon-5 seventh-icon'
-                        alt='snyllo-air-icon-5'
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snyllo-air-icon-5.png"
+                            className='snyllo-air-icon-5 seventh-icon'
+                            alt='snyllo-air-icon-5'
+                            />
+                        </LazyLoad>
                     </div>
                     <div className='seventh-box-subheading'>
                         Military

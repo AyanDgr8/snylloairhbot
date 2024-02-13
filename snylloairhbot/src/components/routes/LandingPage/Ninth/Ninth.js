@@ -1,6 +1,7 @@
 // src/components/routes/LandingPage/Ninth/Ninth.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import './Ninth.css';  
 
 const Ninth = () =>{
@@ -9,12 +10,13 @@ const Ninth = () =>{
             <div className="ninth-page-left">
                 <div className='ninth-left-heading'>
                     <span className='ninth-left-icon'>
-                        <img 
-                        src="/uploads/ninth-left.png"
-                        className='ninth-left-icon'
-                        alt="ninth-left-icon"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/ninth-left.png"
+                            className='ninth-left-icon'
+                            alt="ninth-left-icon"
+                            />
+                        </LazyLoad>
                     </span>
                     <span className='ninth-left-text'>
                         Therapeutic Safety
@@ -26,12 +28,13 @@ const Ninth = () =>{
             </div>
 
             <div className="ninth-page-right">
-                <img 
-                src="/uploads/masked-girl.png"
-                className='masked-girl'
-                alt="masked-girl"
-                >
-                </img>
+                <LazyLoad>
+                    <img 
+                    src="/uploads/masked-girl.png"
+                    className='masked-girl'
+                    alt="masked-girl"
+                    />
+                </LazyLoad>
                 </div>
             </div>
     );

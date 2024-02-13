@@ -2,28 +2,31 @@
 
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import './Tenth.css';
 
 const Tenth = () => {
     return(
         <div className="tenth-page-content">
             <div className="tenth-page-left">
-                <img 
-                src="/uploads/oxygen-guyy.png"
-                className='oxygen-guy'
-                alt="oxygen-guy"
-                >
-                </img>
+                <LazyLoad>
+                    <img 
+                    src="/uploads/oxygen-guyy.png"
+                    className='oxygen-guy'
+                    alt="oxygen-guy"
+                    />
+                </LazyLoad>
             </div>
             <div className="tenth-page-right">
                 <div className="tenth-right-content">
                     <div className="tenth-right-icon">
-                        <img 
-                        src="/uploads/tenth-right-icon.png"
-                        className='tenth-right-icon-drop'
-                        alt="sixth-right-icon-drop"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/tenth-right-icon.png"
+                            className='tenth-right-icon-drop'
+                            alt="sixth-right-icon-drop"
+                            />
+                        </LazyLoad>
                     </div>
                     <h3 className="tenth-right-icon-question">ABOUT</h3>
                     <div className="tenth-heading">

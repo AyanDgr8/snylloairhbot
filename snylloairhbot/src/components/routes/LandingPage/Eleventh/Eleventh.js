@@ -1,6 +1,7 @@
 // src/components/routes/LandingPage/Eleventh/Eleventh.js
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import "./Eleventh.css";
 
 const Eleventh = () => {
@@ -14,12 +15,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-one.png"
-                            className='eleventh-one'
-                            alt="eleventh-one"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-one.png"
+                                className='eleventh-one'
+                                alt="eleventh-one"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Repair of peripheral neuronal fibers
@@ -31,12 +33,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-two.png"
-                            className='eleventh-two'
-                            alt="eleventh-two"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-two.png"
+                                className='eleventh-two'
+                                alt="eleventh-two"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Angiogenesis
@@ -48,12 +51,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-three.png"
-                            className='eleventh-three'
-                            alt="eleventh-three"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-three.png"
+                                className='eleventh-three'
+                                alt="eleventh-three"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Collagen synthesis stimulation
@@ -65,12 +69,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-four.png"
-                            className='eleventh-four'
-                            alt="eleventh-four"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-four.png"
+                                className='eleventh-four'
+                                alt="eleventh-four"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Bactericidal activity
@@ -82,12 +87,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-five.png"
-                            className='eleventh-five'
-                            alt="eleventh-five"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-five.png"
+                                className='eleventh-five'
+                                alt="eleventh-five"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Regulation of oxidative stress and inflammatory response
@@ -99,12 +105,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-six.png"
-                            className='eleventh-six'
-                            alt="eleventh-six"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-six.png"
+                                className='eleventh-six'
+                                alt="eleventh-six"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Increases cerebral blood flow and neuroprotection
@@ -116,12 +123,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-seven.png"
-                            className='eleventh-seven'
-                            alt="eleventh-seven"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-seven.png"
+                                className='eleventh-seven'
+                                alt="eleventh-seven"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Osteogenesis
@@ -133,12 +141,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-eight.png"
-                            className='eleventh-eight'
-                            alt="eleventh-eight"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-eight.png"
+                                className='eleventh-eight'
+                                alt="eleventh-eight"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Decreases ischemia-reperfusion damage
@@ -150,12 +159,13 @@ const Eleventh = () => {
 
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
-                        <img 
-                            src="/uploads/eleventh-nine.png"
-                            className='eleventh-nine'
-                            alt="eleventh-nine"
-                        >
-                        </img>
+                        <LazyLoad>
+                            <img 
+                                src="/uploads/eleventh-nine.png"
+                                className='eleventh-nine'
+                                alt="eleventh-nine"
+                            />
+                        </LazyLoad>
                     </div>
                     <div className="eleventh-box-heading">
                         Analgesic effect

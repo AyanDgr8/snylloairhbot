@@ -1,18 +1,20 @@
 // src/components/routes/LandingPage/Fifth/Fifth.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import './Fifth.css';  
 
 const Fifth = () =>{
     return(
         <div className="fifth-page-content">
             <div className="fifth-page-left">
-                <img 
-                src="/uploads/snylloair-capsule.png"
-                className='snylloair-capsule'
-                alt="snylloair-capsule"
-                >
-                </img>
+                <LazyLoad>
+                    <img 
+                    src="/uploads/snylloair-capsule.png"
+                    className='snylloair-capsule'
+                    alt="snylloair-capsule"
+                    />
+                </LazyLoad>
             </div>
             <div className="fifth-page-right">
                 <div className='second-page-right-heading'>

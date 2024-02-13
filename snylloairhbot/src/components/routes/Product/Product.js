@@ -1,6 +1,7 @@
 // src/components/routes/Product/Product.js
 
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import Header from '../LandingPage/Header/Header';
 import Footer from '../LandingPage/Footer/Footer';
 import LowerFooter from '../LandingPage/LowerFooter/LowerFooter';
@@ -21,11 +22,13 @@ const Product = () => {
         <Header />
 
         <section className="product-container-one">
+            <LazyLoad>
                 <img 
-                src="/uploads/machine-product.png"
-                className='machine-product'
-                alt="Machine Background Image"
+                    src="/uploads/machine-product.png"
+                    className='machine-product'
+                    alt="Machine Background Image"
                 />
+            </LazyLoad>
                 <div className='product-container-one-content'>
                     <div className='product-container-one-line1'>
                         HYPERBARIC CHAMBER
@@ -48,11 +51,14 @@ const Product = () => {
         <Video/>
 
         <section className='product-container-two'>
-            <img 
-                src="/uploads/red-tunnel.png"
-                className='red-tunnel'
-                alt="red-tunnel Background Image"
-            />
+            <LazyLoad>
+                <img 
+                    src="/uploads/red-tunnel.png"
+                    className='red-tunnel'
+                    alt="red-tunnel Background Image"
+                />
+
+            </LazyLoad>
             <div className='product-container-two-content'>
                 <div className='product-container-two-line1'>
                     HYPERBARIC CHAMBER
@@ -71,11 +77,14 @@ const Product = () => {
 
         <section className='product-container-three'>
             <div className='product-container-three-left'>
-            <img 
-                src='/uploads/mat.png'
-                className='mat'
-                alt='mat' 
-            />
+                <LazyLoad>
+                    <img 
+                        src='/uploads/mat.png'
+                        className='mat'
+                        alt='mat' 
+                    />
+                </LazyLoad>
+            
             </div>
             <div className='product-container-three-right'>
                 <div className='product-container-three-content'>

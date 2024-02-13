@@ -1,6 +1,7 @@
 // src/components/routes/LandingPage/Footer/Footer.js
 
 import  React from 'react';
+import LazyLoad from 'react-lazyload';
 import { Link } from 'react-router-dom'; 
 import './Footer.css';
 
@@ -14,11 +15,13 @@ const Footer = () => {
                 <div className='footer-container'>
                     
                     <div className='footer-column-one'>
-                        <img 
-                        src="/uploads/snylloair-footer.png"
-                        className="footer-column-one snylloair-footer"
-                        alt="snylloair-footer"
-                        />
+                        <LazyLoad>
+                            <img 
+                            src="/uploads/snylloair-footer.png"
+                            className="footer-column-one snylloair-footer"
+                            alt="snylloair-footer"
+                            />
+                        </LazyLoad>
                     </div>
 
 

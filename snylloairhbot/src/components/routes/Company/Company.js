@@ -2,6 +2,7 @@
 
 import React from 'react';
 import "./Company.css"
+import LazyLoad from 'react-lazyload';
 import Header from '../LandingPage/Header/Header';
 import Footer from '../LandingPage/Footer/Footer';
 import LowerFooter from '../LandingPage/LowerFooter/LowerFooter';
@@ -12,28 +13,33 @@ const Company = () => {
         <div>
         <Header />
         <section className='company-container-one'>
-            <img 
-                src='/uploads/company.png'
-                className='company'
-                alt='company'
-            />
-            {/* <div className='company-container-one-content'>
+            <LazyLoad>
+                <img 
+                    src='/uploads/company.png'
+                    className='company'
+                    alt='company'
+                />
+            </LazyLoad>
+            <div className='company-container-one-content'>
                 <div className='company-container-one-line1'>
                 Bringing the future of hyperbaric medicine to fruition
                 </div>
                 <div className='company-container-one-line2'>
                     We are a company that manufactures and distributes medium pressure hyperbaric chambers that aims to develop hyperbaric medicine with high quality standards in equipment and services around the world.
                 </div>
-            </div> */}
+            </div>
 
         </section>
+
         <section className='company-container-two'>
             <div className='company-two-left'>
-                <img 
-                    src='/uploads/catch.png'
-                    className='catch'
-                    alt='catch' 
-                />
+                <LazyLoad>
+                    <img 
+                        src='/uploads/catch.png'
+                        className='catch'
+                        alt='catch' 
+                    />
+                </LazyLoad>
             </div>
             <div className='company-two-right'>
                 <div className='company-two-right-content'>

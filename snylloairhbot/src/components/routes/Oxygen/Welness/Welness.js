@@ -2,6 +2,7 @@
 
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 
 import Header from '../../LandingPage/Header/Header';
 import Footer from '../../LandingPage/Footer/Footer';
@@ -16,11 +17,13 @@ const Welness = () =>{
         <div>
             <Header />
             <section className="welness-container-one"> 
-                <img 
-                src="/uploads/beauty-bg.png"
-                className="beauty-bg"
-                alt="beauty-bg" 
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/beauty-bg.png"
+                    className="beauty-bg"
+                    alt="beauty-bg" 
+                    />
+                </LazyLoad>
                 <div className='welness-container-one-content'>
                     <div className='welness-container-one-line1'>
                         Optimal health is inner beauty.
@@ -38,11 +41,13 @@ const Welness = () =>{
 
             <section className="welness-container-two">  
                 <div className="welness-container-two-left">
-                    <img 
-                    src="/uploads/mat.png"
-                    className="welness-machine"
-                    alt="welness-machine"
-                    />
+                    <LazyLoad>
+                        <img 
+                        src="/uploads/mat.png"
+                        className="welness-machine"
+                        alt="welness-machine"
+                        />
+                    </LazyLoad>
                     
                     <div>
                         <button className='butt-hbot'>Step inside our hyperbaric chambers </button>
@@ -84,11 +89,13 @@ const Welness = () =>{
                     </div>
                 </div>
                 <div className="welness-container-three-right">
-                    <img 
-                        src="/uploads/welness-girl11.png"
-                        className="welness-girl1"
-                        alt="welness-girl1" 
-                    />
+                    <LazyLoad>
+                        <img 
+                            src="/uploads/welness-girl11.png"
+                            className="welness-girl1"
+                            alt="welness-girl1" 
+                        />
+                    </LazyLoad>
                 </div>
             </section>
 
@@ -97,11 +104,13 @@ const Welness = () =>{
             {/* ******* */}
 
             <section className="welness-container-four">
-                <img 
-                src="/uploads/blood.png"
-                className="shiny"
-                alt="shiny" 
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/blood.png"
+                    className="shiny"
+                    alt="shiny" 
+                    />
+                </LazyLoad>
                 <div className="welness-four-content">
                     <div className="welness-four-line1">
                         Hyperbaric Oxygen Therapy is as natural as breathing
@@ -133,11 +142,13 @@ const Welness = () =>{
                     </div>
                 </div>
                 <div className="welness-five-right">
-                <img 
-                    src="/uploads/welness-girl22.png"
-                    className="welness-girl22"
-                    alt="welness-girl22" 
-                    />
+                    <LazyLoad>
+                        <img 
+                            src="/uploads/welness-girl22.png"
+                            className="welness-girl22"
+                            alt="welness-girl22" 
+                        />
+                    </LazyLoad>
                 </div>
 
             </section>
@@ -148,11 +159,13 @@ const Welness = () =>{
             <section className="welness-container-six">
 
                 <div className="welness-six-left">
+                    <LazyLoad>
                         <img 
-                        src="/uploads/welness-girl33.png"
-                        className="welness-girl33"
-                        alt="welness-girl33"
-                    />
+                            src="/uploads/welness-girl33.png"
+                            className="welness-girl33"
+                            alt="welness-girl33"
+                        />
+                    </LazyLoad>
                 </div>
 
                 <div className="welness-six-right">
@@ -197,11 +210,13 @@ const Welness = () =>{
                 </div>
 
                 <div className="welness-seven-right">
-                    <img 
-                        src="/uploads/welness-girl44.png"
-                        className="welness-girl44"
-                        alt="welness-girl44" 
-                    />
+                    <LazyLoad>
+                        <img 
+                            src="/uploads/welness-girl44.png"
+                            className="welness-girl44"
+                            alt="welness-girl44" 
+                        />
+                    </LazyLoad>
                 </div>
 
             </section>

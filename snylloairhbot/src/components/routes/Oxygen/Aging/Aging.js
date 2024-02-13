@@ -1,6 +1,7 @@
 // src/components/routes/Oxygen/Aging/Aging.js
 
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import Header from '../../LandingPage/Header/Header';
 import Footer from '../../LandingPage/Footer/Footer';
 import LowerFooter from '../../LandingPage/LowerFooter/LowerFooter';
@@ -12,11 +13,13 @@ const Aging = () =>{
         <div>
             <Header />
             <section className="aging-container-one"> 
-                <img 
-                src="/uploads/aging-bg.png"
-                className="aging-bg"
-                alt="aging-bg" 
-                />
+                <LazyLoad>
+                    <img 
+                    src="/uploads/aging-bg.png"
+                    className="aging-bg"
+                    alt="aging-bg" 
+                    />
+                </LazyLoad>
                 <div className='aging-container-one-content'>
                     <div className='aging-container-one-line1'>
                         Relax and feel younger with every breath.

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import LazyLoad from 'react-lazyload';
 import "./FormContact.css";
 
 
@@ -84,12 +85,13 @@ const FormContact = () =>{
     return(
         <div className="formContact-page">
             <div className="formContact-left-content">
+              <LazyLoad>
                 <img 
                     src="/uploads/snyllo-air-globe.gif"
                     className='formContact-left'
                     alt="formContact-left"
-                >
-                </img>
+                />
+              </LazyLoad>
             </div>
             <div className="formContact-right-content">
                 <div className="formContact-container">
