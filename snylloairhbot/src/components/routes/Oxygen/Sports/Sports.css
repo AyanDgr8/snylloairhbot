@@ -175,7 +175,7 @@
     height: 90vh;
     display: flex;
     flex-direction: row;
-    background-color: #603564;
+    /* background-color: #603564; */
     background-color: white;
 }
 
@@ -281,49 +281,39 @@
 
 .sports-container-six{
     position: relative;
-    height: 50vh;
-    width: 100vh;
-    margin-top: 0.05rem;
-    margin-bottom: 3rem;
+    height: 45vh;
+    background-color: rgba(252, 0, 0, 0.267);
+    margin-bottom: 1rem;
 }
 
 
 .red-bg{
     position: relative;
-    height:50vh;
-    width:400%;
-    opacity: 0.95;
+    height: 45vh;
+    width:100%;
     z-index: -1;
 }
 
 
 .sports-container-six-content {
     position: absolute;
-    margin:auto;
-    text-align: center;
-    margin-top: -18rem; 
-    margin-left: 3rem;
-    z-index: 1; 
-    width: 200%;
+    top:15%;
+    left: 1%;
     color: white;
 }
 
 
 .sports-container-six-line1{
-    font-size: 4rem;
-    font-weight: 700;
-    margin: auto;
-    margin-left: 10rem;
+    font-size: 3.25rem;
     margin-bottom: 1rem;
-    width:75%;
+    font-weight: 700;
 }
 
 .sports-container-six-line2{
-    font-size: 1.5rem;
-    margin: auto;
-    margin-left:12rem;
-    width:70%;
-    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    width: 80%;
 }
 
 

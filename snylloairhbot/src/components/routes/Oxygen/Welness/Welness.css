@@ -5,7 +5,6 @@
 .welness-container-one {
     position: relative;
     height: 110vh;
-    /* background-color: rgba(139, 0, 0, 0.74); */
 }
 
 .beauty-bg{
@@ -52,3 +51,327 @@
 
 }
 
+
+/* ************* */
+
+.welness-container-two{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.welness-container-two-left{
+    width: 40%;
+}
+
+.welness-machine{
+    height: 70vh;
+    width: 30vw;
+    margin-left: -10%;
+    margin-top: 2rem;
+}
+
+.butt-hbot{
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid;
+    padding: 0.8rem;
+    width:60%;
+    font-size: large;
+    background-color: #CE3B3C;
+    color: white;
+}
+
+
+
+.butt-hbot:hover{
+    background-color: #da0303;
+    cursor: pointer;
+
+}
+
+
+.welness-container-two-right{
+    width: 60%;
+}
+
+.welness-container-two-content{
+    width:80%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    text-align: left;
+    
+}
+
+.welness-container-two-line1{
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 2rem ;
+    width:80%;
+    color: #CE3B3C;
+}
+
+.welness-container-two-line2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: gray;
+}
+
+.welness-container-two-line3{
+    font-size: 1.5rem;
+}
+
+
+
+/* *********** */
+
+
+.welness-container-three{
+    position: relative;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.welness-container-three-left{
+    width:60%;
+
+}
+
+
+.welness-container-three-content{
+    margin-top: 4rem;
+    margin-left: 7rem;
+    width:70%;
+    text-align: left;
+}
+
+.welness-container-three-line1{
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem ;
+    color: #CE3B3C;
+}
+
+.welness-container-three-line2{
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.welness-container-three-line3{
+    font-size: 1.25rem;
+    color: gray;
+}
+
+.welness-container-three-right{
+    width:40%;
+
+}
+
+.welness-girl1{
+    height: 80vh;
+}
+
+
+
+
+/* ************ */
+
+
+.welness-container-four{
+    position: relative;
+    height: 45vh;
+    background-color: rgba(252, 0, 0, 0.267);
+    margin-bottom: 1rem;
+}
+
+.shiny{
+    position: relative;
+    height: 45vh;
+    width:100%;
+    z-index: -1;
+}
+
+.welness-four-content{
+    position: absolute;
+    top:15%;
+    left: 1%;
+    color: white;
+}
+
+.welness-four-line1{
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+
+.welness-four-line2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+/* ************ */
+
+
+.welness-container-five{
+    position: relative;
+    height: 90vh;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.welness-five-left{
+    width:60%;
+}
+
+.welness-five-content{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width:90%;
+    text-align: left;
+}
+
+.welness-five-line1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #CE3B3C;
+}
+
+.welness-five-line2{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: gray;
+}
+
+.welness-five-right{
+    width:40%;
+}
+
+.welness-girl22{
+    height: 80vh;
+    margin-top: 2rem;
+}
+
+
+/* ************** */
+
+.welness-container-six{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.welness-six-left{
+    width:40%;
+}
+
+.welness-girl33{
+    height:85vh;
+    width:100%;
+    margin-top: 2rem;
+}
+
+
+.welness-six-right{
+    width:60%;
+}
+
+.welness-six-content{
+    text-align: left;
+    margin-left: 4rem;
+    width:80%;
+    margin-top: 3rem;
+}
+
+.welness-six-line1{
+    font-size: 2.75rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    color: #CE3B3C;
+}
+
+.welness-six-line2{
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    color: gray;
+}
+
+.welness-six-line3{
+    font-size: 1.75rem;
+    margin-top: 3rem;
+
+}
+
+
+
+
+
+/* *************** */
+
+.welness-container-seven{
+    height:100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.welness-seven-left{
+    width:60%;
+}
+
+.welness-seven-content{
+    width:100%;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.welness-seven-line1{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #CE3B3C;
+}
+
+.welness-seven-line2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    width:90%;
+}
+
+.welness-seven-para{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width:80%;
+    color: gray;
+}
+
+.welness-seven-line3{
+    font-size: 1.75rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #CE3B3C;
+    font-weight: 500;
+
+}
+
+.welness-seven-right{
+    width:40%;
+}
+
+.welness-girl44{
+    height:80vh;
+    margin-top: 2rem;
+}
