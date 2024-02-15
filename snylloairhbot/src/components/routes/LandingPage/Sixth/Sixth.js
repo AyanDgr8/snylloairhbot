@@ -28,13 +28,13 @@ const Sixth = () => {
                             />
                         </LazyLoad>
                     </div>
-                    <h3 className="sixth-right-icon-question">What's HBOT?</h3>
+                    <h3 className="sixth-right-icon-question">ABOUT</h3>
                     <div className="sixth-heading">
-                        Hyperbaric Oxygen Therapy
+                    Hyperoxia
                     </div>
                     <div className="sixth-caption">
                         <p>
-                            It is a non-invasive treatment that consists of supplying high concentrations of oxygen in a hyperbaric chamber pressurized to 1.45 atmospheres. Oxygen is transported through the blood and manages to reach all body tissues, including those affected.
+                        It is a non-invasive medical treatment that increases the volume of dissolved oxygen in the blood plasma. Inside the Hyperbaric Chamber, the patient breathes high concentrations of oxygen at a pressure higher than normal atmospheric pressure. This results in multiple benefits for the organism.
                         </p> 
                     </div>
                 </div>

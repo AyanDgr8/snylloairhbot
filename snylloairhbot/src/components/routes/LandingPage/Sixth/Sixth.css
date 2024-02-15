@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-top: 5rem;
 
 }
 
@@ -44,7 +43,7 @@
 
 .sixth-right-content{
     margin: auto;
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-left: 4rem;
     width: 80%;
     color: white;
@@ -59,7 +58,7 @@
 }
 
 .sixth-heading{
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 2.5rem;
     font-weight: 600;
 }

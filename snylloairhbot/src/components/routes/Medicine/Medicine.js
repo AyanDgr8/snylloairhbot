@@ -6,6 +6,7 @@ import './Medicine.css';
 import Header from '../LandingPage/Header/Header';
 import Footer from '../LandingPage/Footer/Footer';
 import LowerFooter from '../LandingPage/LowerFooter/LowerFooter';
+import Sixth from '../LandingPage/Sixth/Sixth';
 import Tenth from '../LandingPage/Tenth/Tenth';
 import Eleventh from '../LandingPage/Eleventh/Eleventh';
 import Eighth from '../LandingPage/Eighth/Eighth';
@@ -16,6 +17,11 @@ const Medicine = () => {
         <div>
             <Header />
             <Tenth />
+            <section className='medicine-container-one'>
+                <div className='medicine-one-left'></div>
+                <div className='medicine-one-right'></div>
+
+            </section>
             <div className='medicine-cotainer-mechanisms'>
                 <h1 className='medicine-cotainer-mechanisms-heading'>Mechanisms of action of HBOT</h1>
                 <div className="mechanism-hbot">
@@ -60,6 +66,9 @@ const Medicine = () => {
                  
             </div>
             <Eleventh/>
+            
+            <Sixth />
+            
             <Eighth/>
 
             <section className='medicine-history'>

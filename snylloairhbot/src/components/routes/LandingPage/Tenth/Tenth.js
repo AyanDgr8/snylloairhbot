@@ -19,23 +19,13 @@ const Tenth = () => {
             </div>
             <div className="tenth-page-right">
                 <div className="tenth-right-content">
-                    <div className="tenth-right-icon">
-                        <LazyLoad>
-                            <img 
-                            src="/uploads/tenth-right-icon.png"
-                            className='tenth-right-icon-drop'
-                            alt="sixth-right-icon-drop"
-                            />
-                        </LazyLoad>
-                    </div>
-                    <h3 className="tenth-right-icon-question">ABOUT</h3>
                     <div className="tenth-heading">
-                        Hyperbaric Medicine
+                        Hyperbaric Oxygen Therapy
                     </div>
                     <div className="tenth-caption">
                         <p>
-                            Hyperbaric Oxygen Therapy consists of increasing the level of oxygen in the blood several times. For this, the patient enters a specially designed and pressurized hyperbaric chamber. There, high concentrations of O2 are breathed at a higher pressure (3 ATA) than normal atmospheric pressure (1 ATA).
-                            This generates hyperoxia and triggers various beneficial physiological effects.
+                            It is a non-invasive medical treatment. The patient enters the Hyperbaric Chamber and by means of a mask breathes high concentrations of oxygen at a pressure higher than the normal atmospheric pressure.<br></br><br></br>
+                            The Hyperbaric Chamber Treatment contributes to the recovery of different pathologies that present inflammation or pain. It is a safe therapy, since the number of sessions and their duration are always indicated by a physician.
                         </p> 
                     </div>
                 </div>
