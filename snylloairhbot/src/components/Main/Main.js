@@ -3,6 +3,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../routes/LandingPage/Home';
 import Medicine from '../routes/Medicine/Medicine';
+import Applications from '../routes/Applications/Applications';
 import Oxygen from '../routes/Oxygen/Oxygen/Oxygen';
 import Sports from '../routes/Oxygen/Sports/Sports';
 import Welness from '../routes/Oxygen/Welness/Welness';
@@ -26,6 +27,7 @@ export default function Main(){
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/medicine" element={<Medicine />} />
+                    <Route path='/applications' element={<Applications />} />
                     <Route path='/oxygen' element={<Oxygen />} />
                     <Route path='/oxygen/sports' element={<Sports />} /> 
                     <Route path='/oxygen/welness' element={<Welness />} />

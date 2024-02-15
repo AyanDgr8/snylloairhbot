@@ -11,7 +11,7 @@ const Tenth = () => {
             <div className="tenth-page-left">
                 <LazyLoad>
                     <img 
-                    src="/uploads/oxygen-guyy.png"
+                    src="/uploads/oxygen-guy.png"
                     className='oxygen-guy'
                     alt="oxygen-guy"
                     />

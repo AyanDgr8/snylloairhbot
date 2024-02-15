@@ -1,0 +1,18 @@
+/* src/components/routes/Faq/Faq.css */
+
+
+
+
+.faq-container{
+    position: relative;
+    height: 80vh;
+}
+
+.faqs{
+    position: absolute;
+    top: 1%;
+    left: -1%;
+    height: 80vh;
+    width: 105%;
+    z-index: -1;
+}

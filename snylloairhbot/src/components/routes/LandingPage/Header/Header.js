@@ -32,6 +32,9 @@ const Header = () =>{
                     <Link to="/medicine" className="button-h " rel="noopener noreferrer"  onClick={scrollToTop}>
                     Hyperbaric Medicine
                     </Link>
+                    {/* <Link to="/applications" className="button-h " rel="noopener noreferrer"  onClick={scrollToTop}>
+                    Application
+                    </Link> */}
                     <div className="dropdown">
                     <Link to="/oxygen/" className="button-h dropbtn">Oxygen Therapy  <FaAngleDown />
                         <div className="dropdown-content">

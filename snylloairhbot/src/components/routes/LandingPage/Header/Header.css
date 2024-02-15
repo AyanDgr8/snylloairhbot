@@ -27,7 +27,7 @@ header {
 .header-buttons{
     display: flex;
     align-items: center;
-    margin-left:18rem;
+    margin-left:15rem;
 }
 
 .button-h{
