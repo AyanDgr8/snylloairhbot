@@ -85,7 +85,7 @@
     margin-top: 2rem;
     margin-left: -4rem;
     font-weight: 700;
-    color: #460c07;
+    color: #CE3B3C;
 
 }
 
@@ -142,6 +142,7 @@
     margin-bottom: 3rem;
     margin-left: 0;
     width:75%;
+    color: #600000;
 
 }
 
@@ -158,6 +159,7 @@
 .sports-container-three-line3 {
     font-size:1.5rem;
     margin:auto;
+    color: #500000;
 }
 
 .tennis{
@@ -203,14 +205,14 @@
     font-size: 3rem;
     font-weight: 700;
     margin-left: -2.75rem;
-    color: #380E0A;
+    color: #500000;
 }
 
 .injuries {
     font-size: 1.5rem;
     font-weight: 400;
     padding-bottom: 1.5rem;
-    color: gray;
+    color: #CE3B3C;
 }
 
 
@@ -220,6 +222,7 @@
 .sports-container-five {
     position: relative;
     height: 120vh;
+    margin-bottom: 1rem;
 }
 
 
@@ -248,11 +251,11 @@
 }
 
 .sports-container-five-line1{
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin: auto;
     margin-bottom: 2rem;
     font-weight: 700;
-    color: #460c07;
+    color: #600000;
 
 }
 
@@ -267,7 +270,9 @@
 }
 
 .sports-container-five-line3 {
-    font-size:1.25rem;
+    font-size:1.5rem;
+    font-weight: 600;
+    color: #CE3B3C;
     width:100%;
     margin:auto;
     font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
@@ -325,6 +330,7 @@
 .sports-container-seven{
     position: relative;
     height: 100vh;
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
 }
@@ -351,10 +357,10 @@
 }
 
 .sports-container-seven-line1{
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color:#380E0A;
+    color: #600000;
 }
 
 .sports-container-seven-paras{
@@ -366,14 +372,15 @@
 .sports-container-seven-line2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    font-weight: 500;
-    color:#380E0A;
+    font-weight: 600;
+    color: #600000;
 }
 
 .sports-container-seven-para{
     font-size: 1.3rem;
+    font-weight: 600;
     margin-bottom: 1rem;
     margin-top: 3rem;
-    color: #690900;
+    color: #CE3B3C;
 
 }

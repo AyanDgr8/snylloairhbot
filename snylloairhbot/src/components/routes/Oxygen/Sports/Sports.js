@@ -116,7 +116,7 @@ const Sports = () =>{
                 <div className="sports-container-four-right">
                     <LazyLoad>
                         <img 
-                            src="/uploads/runner.png"
+                            src="/uploads/sprinter.jpg"
                             className="bones-xray-normal "
                             alt="bones-xray-normal"
                         />

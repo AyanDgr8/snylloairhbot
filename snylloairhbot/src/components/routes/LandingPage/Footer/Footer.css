@@ -1,19 +1,19 @@
 /* src/components/routes/LandingPage/Footer/Footer.css */
 
 .footer-container{ 
-    height: 60vh;
+    height: 55vh;
     background-color: #380E0A;
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-top: -0.25rem;
 }
 
 .snylloair-footer{
-    width:14rem;
+    width:15rem;
     height:11rem;
     margin-top: 5rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .footer-column-two,
@@ -25,6 +25,12 @@
     margin-left: 2rem;
     align-items: start;
     width:12rem;
+}
+
+.footer-column-five{
+    
+    margin-left: -2rem;
+
 }
 
 .footer-column-two >h3,
@@ -53,3 +59,20 @@
     color:#CE3B3C;
 }
 
+
+
+.footer-column-5-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: -0.5vw;
+}
+
+.footer-icons{
+    margin: 1vh;
+    height: 5vh;
+}
+
+.icon-four{
+    height: 4vh;
+    margin-top: 1.5vh;
+}

@@ -60,11 +60,11 @@ const Welness = () =>{
                     <div className='welness-container-two-line1'>
                         HBOT to help rejuvenate your skin
                     </div>
-                    <div className='welness-container-two-line2'>
-                        During a hyperbaric oxygen therapy session inside a pressurized chamber, the body receives pure oxygen at higher atmospheric pressure to boost the flow of oxygen into the circulatory systems.
-                    </div>
                     <div className='welness-container-two-line3'>
                         Elevated levels of oxygen that reach areas with poor blood flow or deprived areas of oxygen, help the body recover faster in a natural way, as well as rejuvenate its look.
+                    </div>
+                    <div className='welness-container-two-line2'>
+                        During a hyperbaric oxygen therapy session inside a pressurized chamber, the body receives pure oxygen at higher atmospheric pressure to boost the flow of oxygen into the circulatory systems.
                     </div>
                 </div>
                 </div>   
@@ -173,12 +173,12 @@ const Welness = () =>{
                         <div className="welness-six-line1">
                         Oxygen and wellness
                         </div>
+                        <div className="welness-six-line3">
+                            A balanced diet, good exercise and a mindful approach to living a healthy lifestyle will guarantee a feel-great attitude every day.
+                        </div>
                         <div className="welness-six-line2">
                             On our quest to enjoy the benefits of optimum health, breathing pure oxygen plays a vital role to aid the flow of blood circulation.<br></br><br></br>
                             Oxygen therapy works best inside a hyperbaric environment, as the increased pressure pushes oxygen molecules into the blood plasma, into the bodys fluid to reach the brain and spine, to help certain affected organs and tissues.
-                        </div>
-                        <div className="welness-six-line3">
-                            A balanced diet, good exercise and a mindful approach to living a healthy lifestyle will guarantee a feel-great attitude every day.
                         </div>
                     </div>
 

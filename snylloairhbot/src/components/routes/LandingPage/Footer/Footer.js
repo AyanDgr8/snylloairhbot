@@ -72,13 +72,43 @@ const Footer = () => {
 
                     <div className='footer-column-five'>
                         <h3>Social Media</h3>
-
-                        <a href="#" className='linkis' onClick={scrollToTop}>  
-                            <Link to="/faq" className="button-footer" rel="noopener noreferrer">FAQs</Link>
-                        </a>
-                        <a href="#"  className='linkis' onClick={scrollToTop}>  
-                            <Link to="/company" className="button-footer" rel="noopener noreferrer">About Us</Link>
-                        </a>
+                        <div className='footer-column-5-icons'>
+                            <a href="https://www.instagram.com/snylloestetica/?igsh=bmRyMTF3anM0OHpn" >
+                                <img 
+                                src="/uploads/icon-instagram.png"
+                                className="icon-one footer-icons"
+                                alt="instagram"
+                                />
+                            </a>
+                            <a href="https://www.facebook.com/snylloestetica" >
+                                <img 
+                                src="/uploads/icon-facebook.png"
+                                className="icon-two footer-icons"
+                                alt="facebook"
+                                />
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC8DT1-rd61x1HkEkR2AVVzQ" >
+                                <img 
+                                src="/uploads/icon-youtube.png"
+                                className="icon-three footer-icons"
+                                alt="youtube"
+                                />
+                            </a>
+                            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FSnylloestetica" >
+                                <img 
+                                src="/uploads/icon-twitter.png"
+                                className="icon-four footer-icons"
+                                alt="twitter"
+                                />
+                            </a>
+                            <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/" >
+                                <img 
+                                src="/uploads/icon-linkedin.png"
+                                className="icon-five footer-icons"
+                                alt="linkedin"
+                                />
+                            </a>
+                        </div>
                     </div>
 
                 </div>

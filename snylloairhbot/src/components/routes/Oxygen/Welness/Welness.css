@@ -108,20 +108,22 @@
 .welness-container-two-line1{
     font-size: 2.75rem;
     font-weight: 700;
-    margin-bottom: 2rem ;
     width:80%;
-    color: #CE3B3C;
+    color: #500000;
 }
 
 .welness-container-two-line2{
     font-size: 1.25rem;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
     color: gray;
 }
 
 .welness-container-two-line3{
     font-size: 1.5rem;
+    color: #CE3B3C;
+    font-weight: 500;
+    margin-top: 2rem;
 }
 
 
@@ -152,13 +154,15 @@
 .welness-container-three-line1{
     font-size: 2.75rem;
     font-weight: 700;
-    color: #CE3B3C;
+    color: #500000;
 }
 
 .welness-container-three-line2{
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 500;
     margin-bottom: 3rem;
+    color: #CE3B3C;
+    
 }
 
 .welness-container-three-line3{
@@ -297,9 +301,8 @@
 
 .welness-six-line1{
     font-size: 2.75rem;
-    margin-bottom: 3rem;
     font-weight: 700;
-    color: #CE3B3C;
+    color: #500000;
 }
 
 .welness-six-line2{
@@ -309,8 +312,11 @@
 }
 
 .welness-six-line3{
-    font-size: 1.75rem;
-    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #CE3B3C;
 
 }
 
@@ -341,14 +347,15 @@
     font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #CE3B3C;
+    color: #500000;
 }
 
 .welness-seven-line2{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 2rem;
     width:90%;
+    color: #CE3B3C;
 }
 
 .welness-seven-para{
@@ -363,7 +370,7 @@
     font-size: 1.75rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    color: #CE3B3C;
+    color: #500000;
     font-weight: 500;
 
 }
