@@ -4,7 +4,7 @@
 
 .company-container-one {
     position: relative;
-    height: 110vh;
+    height: 115vh;
     margin-top: 1vh;
 }
 
@@ -13,7 +13,8 @@
     top: 0;
     left: -2vw;
     width:102vw;
-    height: 110vh;
+    height: 120vh;
+    margin-top: -1.5rem;
     z-index: -1;
 }
 
@@ -77,7 +78,7 @@
     width:80%;
     color: white;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .company-content-line1{
@@ -92,3 +93,98 @@
     line-height: 4vh;
 }
 
+
+
+
+/* ************** */
+
+
+.company-container-three{
+    position: relative;
+    height: 50vh;
+    background-color: #710B0B;
+}
+
+.mission-vision-box{
+    margin: auto;
+    margin-bottom: 1rem;
+    height: 35vh;
+    width:80vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #4e0000;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+.mission-vision-caption{
+    text-align: left;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.mis-vis-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    vertical-align: 3vh;
+    color: #CE3B3C;
+}
+
+.mis-vis-para{
+    width:80%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+/* ************ */
+
+.company-container-four{
+    position: relative;
+    height: auto;
+}
+
+.company-four-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #CE3B3C;
+}
+
+.company-boxes{
+    margin: auto;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    width: 95%; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+    text-align: left;
+    
+}
+
+.company-box{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.company-box-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.company-box-para{
+    color: gray;
+    line-height: 4vh;
+    width: 90%;
+}
