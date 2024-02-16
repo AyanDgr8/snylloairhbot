@@ -5,14 +5,95 @@
 
 .faq-container{
     position: relative;
-    height: 80vh;
+    height: 70vh;
 }
 
 .faqs{
     position: absolute;
     top: 1%;
     left: -1%;
-    height: 80vh;
-    width: 105%;
+    height: 70vh;
+    width: 110%;
     z-index: -1;
+}
+
+.faq-heading{
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 6rem;
+    text-align: left;
+}
+
+.faq-line1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #500000;
+}
+
+.faq-line2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #CE3B3C;
+
+}
+
+
+/* ******** */
+
+
+.faq-qs{
+    background-color: aliceblue;
+    margin-bottom: 5rem;
+}
+
+.fa-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.faq-button {
+    width:60rem;
+    background-color: white; 
+    box-shadow: 
+    0 0 0.125vw rgba(0, 0, 0, 0.801);
+    box-sizing: border-box;
+    border: none; 
+    border-bottom: none;
+    color: #300f0f; 
+    padding: 2rem; 
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 0.5rem; 
+    text-align: start;
+}
+
+.faq-button .icon {
+    display: flex;
+    justify-content: right;
+    margin-top: -6.5vh;
+    
+  }
+
+
+.faq-answers {
+    width: 60rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: -1.4rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    text-align: left;
+    color: gray;
+    display: block;
+    background-color: white; 
+    box-sizing: border-box;
+    border: none; 
 }
