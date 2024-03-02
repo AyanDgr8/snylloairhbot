@@ -3,7 +3,8 @@
 
 .lower-footer-content{
     margin: 2rem;
-    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .lower-footer-lines{
@@ -11,4 +12,16 @@
     margin-top: 1rem;
     color: black;
     font-weight: 500;
+    margin-top: 2rem;
+}
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+    .lower-footer-content{
+        width: 75%;
+    }
+    .lower-footer-lines{
+        width: 75%;
+    }
 }

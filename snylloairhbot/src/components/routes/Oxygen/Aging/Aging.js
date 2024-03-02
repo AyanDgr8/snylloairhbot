@@ -23,13 +23,13 @@ const Aging = () =>{
                 </LazyLoad>
                 <div className='aging-container-one-content'>
                     <div className='aging-container-one-line1'>
-                        Relax and feel younger with every breath.
+                        Relax and feel younger with every breath
                     </div>
                     <div className='aging-container-one-line2'>
                         Hyperbaric Oxygen Therapy for elderly people
                     </div>
                     <div className='aging-container-one-line3'>
-                        Inside the hyperbaric chamber, a user will absorb oxygen close to four times the normal breathing conditions.
+                        Inside the hyperbaric chamber, a user will absorb oxygen close to four times the normal breathing conditions
                     </div>
                 </div>
             </section>
@@ -109,8 +109,8 @@ const Aging = () =>{
                     <LazyLoad>
                         <img 
                             src="/uploads/snylloair-capsule.png"
-                            className="snylloair-capsulee"
-                            alt="snylloair-capsulee" 
+                            className="snylloair-capsuleee"
+                            alt="snylloair-capsuleee" 
                         />
                     </LazyLoad>
 

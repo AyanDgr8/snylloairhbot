@@ -25,13 +25,13 @@ const Sports = () =>{
                 </LazyLoad>
                 <div className='sports-container-one-content'>
                     <div className='sports-container-one-line1'>
-                        Your A game is just a few breaths away.
+                        Your A game is just a few breaths away
                     </div>
                     <div className='sports-container-one-line2'>
                     Hyperbaric Oxygen Therapy for sports
                     </div>
                     <div className='sports-container-one-line3'>
-                    Hyperbaric Oxygen Therapy (HBOT) for professional sports has become one of the most effective methods for athlete recovery.
+                    Hyperbaric Oxygen Therapy (HBOT) for professional sports has become one of the most effective methods for athlete recovery
                     </div>
                 </div>
 

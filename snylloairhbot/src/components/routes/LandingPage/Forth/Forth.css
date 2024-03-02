@@ -14,6 +14,8 @@
     width:50%;
 }
 
+
+
 .snylloair-red-machine{
     margin-top: 3rem;
 
@@ -35,11 +37,20 @@
 }
 
 .forth-machine-name{
-    color: white;
     font-size: 2rem;
-    font-weight: 600;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
-    
+    font-weight: 400;
+}
+
+
+
+.forth-page-right-heading-line1 {
+    font-weight: 400;
+
+}
+
+.snylloair-text-bold{
+    font-weight: 700;
+
 }
 
 .forth-heading{
@@ -54,4 +65,72 @@
     color: rgb(180, 179, 179);
     text-align: start;
     line-height: 1.5rem;
+}
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .forth-page-content{
+        flex-direction: column-reverse;
+        margin: auto;
+        margin-top: 5rem;
+    
+    }
+        
+
+    .forth-page-right{
+        width:100%;
+    }
+
+    .forth-right-content{
+        margin: auto;
+        width: 80%;
+        color: white;
+        text-align: start;
+
+    }
+    
+    .forth-machine-name{
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+
+
+
+    .forth-page-right-heading-line1 {
+        font-weight: 400;
+
+    }
+
+    .snylloair-text-bold{
+        font-weight: 700;
+
+    }
+
+    .forth-heading{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+
+    }
+
+    .forth-caption{
+        font-size: 1rem;
+        text-align: start;
+        line-height: 1.5rem;
+    }
+
+    .forth-page-left{
+        width:100%;
+    }
+
+
+    .snylloair-red-machine{
+        margin: auto;
+        margin-top: 2rem;
+        width: 25rem;
+
+    }
 }

@@ -20,7 +20,7 @@ const Forth = () => {
             <div className="forth-page-right">
                 <div className="forth-right-content">
                     <div className="forth-machine-name">
-                        <h3 className='second-page-right-heading-line1'>SnylloAir 01 <br></br><strong className='snylloair-text-bold'>HBOT CAPSULE </strong> </h3>
+                        <h3 className='forth-page-right-heading-line1'>SnylloAir 01 <br></br><strong className='snylloair-text-bold'>HBOT CAPSULE </strong> </h3>
                     </div>
                     <div className="forth-heading">
                         Advanced Safety Features

@@ -59,3 +59,41 @@
     margin: auto;
 
 } 
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+  
+    .eighth-page-content{
+        width:100%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .eighth-page-para{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+
+    .slider-buttons button{
+        font-size: large;
+    }
+
+
+    .slider-three{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .slick-slide img {
+        height: 20rem;
+        width: auto;
+        margin: auto;
+
+    } 
+}

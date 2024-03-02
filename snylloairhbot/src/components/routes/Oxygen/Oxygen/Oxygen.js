@@ -31,7 +31,7 @@ const Oxygen = () => {
                         Hyperbaric Oxygen Therapy
                     </div>
                     <div className='oxygen-container-one-line3'>
-                        Hyperbaric Oxygen Therapy (HBOT) is a procedure in which we breathe pure oxygen inside a chamber with increased atmospheric pressure to improve the natural healing powers of our body.
+                        Hyperbaric Oxygen Therapy (HBOT) is a procedure in which we breathe pure oxygen inside a chamber with increased atmospheric pressure to improve the natural healing powers of our body
                     </div>
                 </div>
             </section>

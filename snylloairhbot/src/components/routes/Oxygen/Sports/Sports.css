@@ -384,3 +384,354 @@
     color: #CE3B3C;
 
 }
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+        
+    .sports-container-one {
+        position: relative;
+        height: 80vh;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .king{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:220vw;
+        margin-left: -15rem;
+        height: 80vh;
+        z-index: -1;
+        opacity: 0.75;
+    }
+
+
+    .sports-container-one-content {
+        position: absolute;
+        margin:auto;
+        margin-left: 5%;
+        margin-top: 10rem; 
+        z-index: 1; 
+        color: white;
+        text-align: center;
+    }
+
+    .sports-container-one-line1{
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 1rem;
+
+    }
+
+    .sports-container-one-line2{
+        font-size: 2.75rem;
+        font-weight: 700;
+    }
+
+    .sports-container-one-line3 {
+        font-size:1rem;
+        width:70%;
+    }
+
+
+    /* *************** */
+
+
+    .sports-container-two{
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 1rem;
+    }
+
+
+    .sports-container-two-left{
+        width:100%;
+    }
+
+    .sports1{
+        width:95%;
+        margin: auto;
+    }
+
+    .sports-container-two-right{
+        width:100%;
+    }
+
+
+    .sports-container-two-line1{
+        font-size: 2rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    .sports-container-two-paras{
+        font-size:1rem;
+        width:80%;
+        margin: auto;
+        line-height: 2.1vh;
+
+    }
+
+    /* ********************* */
+
+
+    .sports-container-three {
+        height: 60vh;
+    }
+
+    .kings{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100vw;
+        height: 60vh;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+
+    .sports-container-three-content {
+        position: absolute;
+        margin:auto;
+        margin-top: 2rem; 
+        z-index: 1; 
+        color: white;
+        text-align: start;
+        width:95%;
+
+    }
+
+    .sports-container-three-line1{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3.5vh;
+        letter-spacing: 0.001vw;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        width:100%;
+
+    }
+
+    .sports-container-three-line2{
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2vh;
+        margin: auto;
+        margin-bottom: 3rem;
+        width:100%;
+    }
+
+    .sports-container-three-line3 {
+        font-size:1.25rem;
+    }
+
+    .tennis{
+        font-size:1rem;
+        margin-left: -1.25rem;
+        line-height: 2vh;
+    }
+
+
+    /* ******************* */
+
+    .sports-container-four {
+        position: relative;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sports-container-four-left {
+        width: 100%;
+        text-align: start;
+        margin: auto;
+        margin-left: 20%;
+
+    }
+
+
+    .sports-container-four-right {
+        width: 100%;
+    }
+
+
+    .bones-xray-normal {
+        height: 40vh;
+        width: auto;
+        margin-top: 1rem;
+    }
+
+    .injury {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .injuries {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    /* ********************** */
+
+    .sports-container-five {
+        position: relative;
+        height: 70vh;
+        margin-bottom: 1rem;
+    }
+
+
+    .cheerful{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100vw;
+        height: 70vh;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+
+    .sports-container-five-content {
+        position: absolute;
+        margin:auto;
+        margin-top: 1.5rem;
+        width:90%;
+    }
+
+    .sports-container-five-line1{
+        font-size: 2rem;
+        margin: auto;
+        margin-bottom: 1rem;
+
+    }
+
+    .sports-container-five-line2{
+        font-size: 1rem;
+        margin: auto;
+        margin-bottom: 1rem;
+        line-height: 2.1vh;
+        color: black;
+    }
+
+    .sports-container-five-line3 {
+        font-size:1.5rem;
+        color: #ff2020;
+        margin:auto;
+    }
+
+    /******************/
+
+    .sports-container-six{
+        position: relative;
+        height: 50vh;
+        margin-bottom: 1rem;
+    }
+
+
+    .red-bg{
+        position: relative;
+        height: 50vh;
+        width:100%;
+        z-index: -1;
+    }
+
+
+    .sports-container-six-content {
+        position: absolute;
+        top:25%;
+        left: 1%;
+        color: white;
+    }
+
+
+    .sports-container-six-line1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+    .sports-container-six-line2{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+
+
+
+    /* ******************* */
+
+
+    .sports-container-seven{
+        position: relative;
+        height: auto;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sports-container-seven-left{
+        width:100%;
+        
+    }
+
+    .sports-container-seven-right{
+        width:100%;
+    }
+
+    .jorginho{
+        width:75%;
+    }
+
+    .sports-container-seven-content{
+        text-align: left;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .sports-container-seven-line1{
+        font-size: 2rem;
+        font-weight: 600;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    .sports-container-seven-paras{
+        font-size: 1rem;
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 90%;
+    }
+
+    .sports-container-seven-line2{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .sports-container-seven-para{
+        font-size: 1.4rem;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        width: 95%;
+
+    }
+
+
+
+
+}

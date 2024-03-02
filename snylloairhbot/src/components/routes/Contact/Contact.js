@@ -13,7 +13,7 @@ const Contact = () => {
         <Header />
 
         <section className='contact-container'>
-            <img 
+            {/* <img 
                 src='/uploads/selected.jpg'
                 className='rectangle'
                 alt='rectangle'
@@ -21,7 +21,7 @@ const Contact = () => {
             <div className='contact-two-lines'>
                 <div className='contact-heading'>Contact</div>
                 <div className='contact-subheading'>Get in touch with our experts, we'd love to hear from you!</div>
-            </div>
+            </div> */}
         </section>
 
         <FormContact />

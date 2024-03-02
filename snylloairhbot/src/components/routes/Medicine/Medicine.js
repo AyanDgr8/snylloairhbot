@@ -80,6 +80,13 @@ const Medicine = () => {
                     alt="history"
                     />
                 </LazyLoad>
+                <LazyLoad>
+                    <img 
+                    src="/uploads/historyy.png"
+                    className='historyy'
+                    alt="historyy"
+                    />
+                </LazyLoad>
                 
             </section>
 
@@ -101,6 +108,11 @@ const Medicine = () => {
                     src="/uploads/contra.png"
                     className='contra'
                     alt ="contra"
+                    />
+                    <img 
+                    src="/uploads/contrad.png"
+                    className='contrad'
+                    alt ="contrad"
                     />
                 </div>
 

@@ -188,3 +188,196 @@
     line-height: 4vh;
     width: 90%;
 }
+
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+
+    .company-container-one {
+        position: relative;
+        height: 100vh;
+        margin-top: 1vh;
+    }
+    
+    .company{
+        position: absolute;
+        top: 0;
+        left: -30vw;
+        width:135vw;
+        height: 100vh;
+        margin-top: -1.5rem;
+        z-index: -1;
+    }
+    
+    
+    .company-container-one-content {
+        position: absolute;
+        margin:auto;
+        margin-top: 12rem; 
+        margin-left: 2.5rem;
+        text-align: left;
+        padding: 10px;
+        width: 80%;
+    }
+    
+    .company-container-one-line1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: auto;
+        line-height: 6vh;
+    
+    }
+    
+    .company-container-one-line2{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: auto;
+        margin-top: 2rem;
+        line-height: 4vh;
+    }
+    
+    
+    
+    
+    /* *********** */
+    
+    
+    .company-container-two{
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #710B0B;
+        margin-top: -2rem;
+    }
+    
+    .company-two-left{
+        width:100%;
+    }
+    
+    .catch{
+        height:45vh;
+        margin: auto;
+    }
+    
+    .company-two-right{
+        width:100%;
+    }
+    
+    .company-two-right-content{
+        text-align: left;
+        width:80%;
+        color: white;
+        margin-left: 7.5%;
+        margin-top: 10%;
+    }
+    
+    .company-content-line1{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        font-weight: 700;
+    }
+    
+    .company-content-line2{
+        font-size: 1.1rem;
+        line-height: 4vh;
+    }
+    
+    
+    
+    
+    /* ************** */
+    
+    
+    .company-container-three{
+        position: relative;
+        height: auto;
+    }
+    
+    .mission-vision-box{
+        margin: auto;
+        margin-bottom: 1rem;
+        height: auto;
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #4e0000;
+        border: none;
+        padding: 1rem;
+    
+    }
+    
+    .mission-vision-caption{
+        text-align: left;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .mis-vis-heading{
+        font-size: 2.5rem;
+        font-weight: 500;
+        vertical-align: 3vh;
+        color: #CE3B3C;
+    }
+    
+    .mis-vis-para{
+        width:80%;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: white;
+    }
+    
+    
+    /* ************ */
+    
+    .company-container-four{
+        position: relative;
+        height: auto;
+    }
+    
+    .company-four-heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        color: #CE3B3C;
+    }
+    
+    .company-boxes{
+        margin: auto;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        width: 95%; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 0rem; 
+        
+    }
+    
+    .company-box{
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .company-box-heading{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    
+    .company-box-para{
+        color: gray;
+        line-height: 4vh;
+        width: 90%;
+    }
+    
+}

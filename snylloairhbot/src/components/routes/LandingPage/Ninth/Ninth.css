@@ -53,3 +53,54 @@
 .masked-girl{
     width:35rem;
 }
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+
+    .ninth-page-content{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    
+    .ninth-page-left{
+        width:100%;
+    }
+    
+    .ninth-left-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .ninth-left-icon{
+        width: 4rem;
+        margin-left: -25%;
+    }
+    
+    .ninth-left-text{
+        font-size: 1.5rem;
+    }
+    
+    .ninth-left-para{
+        font-size: large;
+        width:85%;
+        margin: auto;
+        text-align: left;
+        margin-top: 1rem;
+    }
+    
+    .ninth-page-right{
+        width:100%;
+    }
+    
+    .masked-girl{
+        width:30rem;
+    }
+    
+}

@@ -15,10 +15,6 @@ const First = () => {
                     </video>
                 </LazyLoad>
             </div>
-            <div className='content-first-page'>
-                <div className='content-first-line1'>More than a Hyperbaric Chamber</div>
-                <div className='content-first-line2'>an integrated system - safe, effective and easy to operate</div>
-            </div>
         </div>
 
     );

@@ -69,3 +69,71 @@
     text-align: start;
     line-height: 1.5rem;
 }
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+    
+
+    .sixth-page-content{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+
+    }
+    .sixth-page-right{
+        width:100%;
+    }
+
+    .sixth-right-icon{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sixth-right-icon-drop{
+        height: 4rem;
+    }
+
+    .sixth-right-icon-question{
+        margin: auto;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .sixth-right-content{
+        margin: auto;
+        margin-top: 3rem;
+        width: 80%;
+
+    }
+
+    .sixth-machine-name{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .sixth-heading{
+        margin: auto;
+        font-size: 2.25rem;
+        font-weight: 600;
+    }
+
+    .sixth-caption{
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .sixth-page-left{
+        width:100%;
+    }
+
+    .snylloair-hbots{
+        margin-top: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+
+    }
+
+
+}

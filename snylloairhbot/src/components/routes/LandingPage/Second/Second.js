@@ -12,8 +12,8 @@ const Second = () =>{
                     <LazyLoad>
                         <img 
                         src="/uploads/snylloair-capsule.png"
-                        className='snylloair-capsule'
-                        alt="snylloair-capsule"
+                        className='snylloair-capsulee'
+                        alt="snylloair-capsulee"
                         />
                     </LazyLoad>
 

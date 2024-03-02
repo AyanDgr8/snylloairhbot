@@ -42,7 +42,7 @@
 
 
 .faq-qs{
-    background-color: aliceblue;
+    background-color: white;
     margin-bottom: 5rem;
 }
 
@@ -59,7 +59,7 @@
     width:60rem;
     background-color: white; 
     box-shadow: 
-    0 0 0.125vw rgba(0, 0, 0, 0.801);
+    0 0 0.25vw 0 rgba(0, 0, 0, 0.534);
     box-sizing: border-box;
     border: none; 
     border-bottom: none;
@@ -78,7 +78,7 @@
 .faq-button .icon {
     display: flex;
     justify-content: right;
-    margin-top: -6.5vh;
+    margin-top: -5vh;
     
   }
 
@@ -95,5 +95,92 @@
     display: block;
     background-color: white; 
     box-sizing: border-box;
-    border: none; 
+    box-shadow: 
+    0 0 0.25vw 0 rgba(0, 0, 0, 0.534);
+    /* border: none;  */
+}
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .faq-container{
+        height: 80vh;
+    }
+    
+    .faqs{
+        position: absolute;
+        top: 1%;
+        left: -35rem;
+        height: 80vh;
+        width: 275vw;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    
+    .faq-heading{
+        position: absolute;
+        margin-top: 12rem;
+        margin-left: 3rem;
+        text-align: left;
+    }
+    
+    .faq-line1{
+        font-size: 3rem;
+        font-weight: 700;
+        color: #500000;
+    }
+    
+    .faq-line2{
+        font-size: 2rem;
+        margin-top: 4rem;
+        color: #ff0000;
+    
+    }
+    
+    
+    /* ******** */
+    
+    
+    .faq-qs{
+        background-color: white;
+        margin-bottom: 5rem;
+    }
+    
+    .fa-questions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .faq-button {
+        width:22rem;
+        color: #300f0f; 
+        padding: 1.1rem; 
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 1.1rem;
+    }
+    
+    .faq-button .icon {
+        display: flex;
+        justify-content: right;
+        margin-top: -3vh;
+        
+      }
+    
+    
+    .faq-answers {
+        width: 22rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: -1.4rem;
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+    
 }

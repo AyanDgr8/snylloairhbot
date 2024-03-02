@@ -26,13 +26,13 @@ const Welness = () =>{
                 </LazyLoad>
                 <div className='welness-container-one-content'>
                     <div className='welness-container-one-line1'>
-                        Optimal health is inner beauty.
+                        Optimal health is inner beauty
                     </div>
                     <div className='welness-container-one-line2'>
                         Hyperbaric Oxygen Therapy for beauty and relaxation
                     </div>
                     <div className='welness-container-one-line3'>
-                        Embracing the use of HBOT to favor aesthetic objectives is a relatively new approach to an ever-growing complementary treatment, oxygen therapy.
+                        Embracing the use of HBOT to favor aesthetic objectives is a relatively new approach to an ever-growing complementary treatment, oxygen therapy
                     </div>
                 </div>
             </section>

@@ -6,36 +6,44 @@
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-top: -0.5rem;
-    background-color: white;
-    margin-bottom: 1rem;
-
-}
-
-.formContact-left-content{
-    width:40%;
-}
-
-.formContact-left{
-    width:100%;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 .formContact-right-content{
-    width:60%;
+  width:45%;
+}
+
+
+.formContact-right{
+    width:100%;
+    height: 100vh;
+    margin-top: 0;
+}
+
+
+.formContact-left-content{
+    width:100%;
+    margin: auto;
+    margin-top: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+    background-color: rgb(240, 238, 238);
+
+    /* box-shadow: 0 0 0.25vw #ce3b3c,
+    inset 0 0 0.125vw #ce3b3c; */
     
 }
 
 .formContact-container{
-    width: 80%;
+    width: 60%;
     margin: auto ;
-    margin-top: 1rem;
+    height: 90%;
+    padding-bottom: 2rem;
 }
 
 .formContact-heading{
     margin: auto;
     font-weight: 700;
-    text-align: left;
 }
 
 .formContact-line1{
@@ -49,7 +57,7 @@
 }
 
 .formContact-line3{
-    font-size:1.15rem;
+    font-size:1rem;
     font-weight: 400;
     color: gray;
 }
@@ -70,7 +78,7 @@
   input {
     width: calc(50% - 0.5rem); /* Adjusted width to fit two inputs in a row with a small gap */
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid;
     border-color: rgb(172, 171, 171);
     margin: 1rem;
@@ -81,7 +89,7 @@
     width: 52%;
     height:25%;
     padding: 0.4rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid;
     margin-top: 1rem;
     margin-right: 1rem;
@@ -94,7 +102,7 @@
   .profession-bookForm {
     width: calc(100% - 2rem); /* Adjusted width to fit the full length */
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid;
     margin-top: 1.5rem; 
     border: 1px solid;
@@ -104,7 +112,7 @@
   .message-bookForm {
     width: calc(100% - 3rem); 
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid;
     margin-top: 2rem; 
     border: 1px solid;
@@ -112,9 +120,9 @@
   }
   
   .bookFormbutton {
-    width: 95%; 
+    width: 60%; 
+    margin: auto;
     margin-top: 0.5rem;
-    margin-left: 0.5rem;
     margin-bottom: 1rem;
     padding: 0.75rem;
     background-color: #ce3b3c;
@@ -128,3 +136,58 @@
     background-color: #380e0a;
   }
   
+
+  
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+
+  .formContact-page{
+    width:100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .formContact-right-content{
+    width:100;
+  }
+
+
+  .formContact-right{
+      width:100vw;
+      height: auto;
+  }
+
+
+  .formContact-left-content{
+      width:100%;
+      
+  }
+
+  .formContact-container{
+      width: 80%;
+      margin: auto ;
+      padding-bottom: 2rem;
+  }
+
+  .formContact-heading{
+      margin: auto;
+      font-weight: 700;
+      margin-left: -2rem;
+  }
+
+  .formContact-line1{
+      font-size:1.25rem;
+      margin: auto;
+  }
+
+  .formContact-line2{
+      font-size:2.25rem;
+  }
+
+
+  
+  
+
+}

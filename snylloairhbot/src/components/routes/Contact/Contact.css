@@ -4,17 +4,16 @@
 
 .contact-container{
     position: relative;
-    height: 50vh;
+    height: 10vh;
 }
 
-.rectangle{
+/* .rectangle{
     position: absolute;
     top: 0;
     left: -1%;
     height: 100vh;
     width: 105%;
     z-index: -1;
-    /* opacity: 0.9; */
 
 }
 
@@ -33,4 +32,44 @@
 .contact-subheading{
     font-size: 1.5rem;
     font-weight: 500;
+} */
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    
+    .contact-container{
+        position: relative;
+        height: 0;
+    }
+/* 
+    .rectangle{
+        position: absolute;
+        top: 0;
+        left: -1%;
+        height: 100vh;
+        width: 105%;
+        z-index: -1;
+
+    }
+
+    .contact-two-lines{
+        position:absolute;
+        margin-left:25% ;
+        margin-top: 7rem;
+        color: white;
+    }
+
+    .contact-heading{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .contact-subheading{
+        font-size: 1.5rem;
+        font-weight: 500;
+    } */
 }

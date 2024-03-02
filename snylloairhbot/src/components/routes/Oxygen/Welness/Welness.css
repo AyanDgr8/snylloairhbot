@@ -383,3 +383,354 @@
     height:80vh;
     margin-top: 2rem;
 }
+
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .welness-container-one {
+        position: relative;
+        height: 80vh;
+        margin-top: 0;
+    }
+    
+    .beauty-bg{
+        width:300vw;
+        height: 80vh;
+    }
+    
+    
+    .welness-container-one-content {
+        margin:auto;
+        margin-top: 10rem; 
+        z-index: 1; 
+        color: white;
+        text-align: center;
+    }
+    
+    .welness-container-one-line1{
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .welness-container-one-line2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+    
+    .welness-container-one-line3 {
+        font-size:1rem;
+        width:75%;
+        margin:auto;
+    }
+    
+    
+    /* ************* */
+
+        
+        
+    .welness-container-two{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .welness-container-two-left{
+        width: 100%;
+    }
+
+    .welness-machine{
+        height: auto;
+        width: 95vw;
+        margin: auto;
+    }
+
+    .butt-hbot{
+        margin: auto;
+        margin-top: 2rem;
+        padding: 0.75rem;
+        width:75%;
+        font-size: 1rem;
+    }
+
+
+    .welness-container-two-right{
+        width: 100%;
+    }
+
+    .welness-container-two-content{
+        width:90%;
+        margin: auto;
+        margin-top: 5rem;
+        text-align: left;
+    }
+
+    .welness-container-two-line1{
+        font-size: 2rem;
+        font-weight: 600;
+        width:100%;
+    }
+
+    .welness-container-two-line2{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 2rem;
+        color: gray;
+    }
+
+    .welness-container-two-line3{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+
+    /* *********** */
+
+    .welness-container-three{
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+    
+
+    .welness-container-three-right{
+        width:100%;
+
+    }
+
+    .welness-girl1{
+        height: 50vh;
+    }
+
+    .welness-container-three-left{
+        width:100%;
+
+    }
+
+    .welness-container-three-content{
+        margin: auto;
+        margin-top: 3rem;
+        width:90%;
+        text-align: left;
+    }
+
+    .welness-container-three-line1{
+        margin: auto;
+        font-size: 2.5rem;
+    }
+
+    .welness-container-three-line2{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .welness-container-three-line3{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+
+    /* ************ */
+
+
+    .welness-container-four{
+        position: relative;
+        height: 45vh;
+        margin-bottom: 1rem;
+    }
+
+    .shiny{
+        position: relative;
+        height: 45vh;
+        width:100%;
+        z-index: -1;
+    }
+
+    .welness-four-content{
+        position: absolute;
+        top:22.5%;
+        left: 1%;
+    }
+
+    .welness-four-line1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+
+    .welness-four-line2{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    
+    /* ************ */
+
+
+    .welness-container-five{
+        height: auto;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .welness-five-left{
+        width:100%;
+    }
+
+    .welness-five-content{
+        margin: auto;
+        margin-top: 2rem;
+        width:90%;
+        text-align: left;
+    }
+
+    .welness-five-line1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .welness-five-line2{
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .welness-five-right{
+        width:100%;
+    }
+
+    .welness-girl22{
+        height: 40vh;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+
+    /* ************** */
+
+    .welness-container-six{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .welness-six-left{
+        width:100%;
+    }
+
+    .welness-girl33{
+        margin: auto;
+        height:50vh;
+        width:100%;
+    }
+
+
+    .welness-six-right{
+        width:100%;
+    }
+
+    .welness-six-content{
+        text-align: left;
+        margin: auto;
+        width:100%;
+        margin-top: 2rem;
+    }
+
+    .welness-six-line1{
+        margin: auto;
+        margin-left: 5%;
+        font-size: 2.2rem;
+    }
+
+    .welness-six-line2{
+        font-size: 1rem;
+        margin: auto;
+        margin-bottom: 4rem;
+        width: 90%;
+    }
+
+    .welness-six-line3{
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin: auto;
+        margin-left: 5%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+    }
+
+    /* *************** */
+
+    .welness-container-seven{
+        height:auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .welness-seven-left{
+        width:100%;
+    }
+
+    .welness-seven-content{
+        width:100%;
+        text-align: left;
+        margin: auto;
+        margin-left: 1.5rem;
+    }
+
+    .welness-seven-line1{
+        font-size: 2rem;
+    }
+
+    .welness-seven-line2{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        width:90%;
+    }
+
+    .welness-seven-para{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width:80%;
+        color: gray;
+    }
+
+    .welness-seven-line3{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .welness-seven-right{
+        width:100%;
+    }
+
+    .welness-girl44{
+        height:40vh;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+
+}

@@ -4,7 +4,7 @@
 .third-page-content{
     margin: auto;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .third-page-boxes{
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    width: 1200px;
+    width: 1000px;
 }
 
 .third-page-box{
@@ -44,3 +44,49 @@
     color: gray;
 
   }
+
+
+  /* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+  .third-page-content{
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }   
+
+  .third-page-boxes{
+      margin: auto;
+      margin-left: 2rem;
+  }
+
+  .third-page-box{
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      margin: auto;
+      margin-top: 2rem;
+
+  }
+
+  .box-icon {
+      margin-bottom: 0.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .snylloair-third{
+      width: 2.5rem;
+    }
+    
+    .box-heading {
+      margin-bottom: 0.25rem;
+    }
+    
+    .box-caption{
+      margin-top: 0.5rem;
+      width: 30%;
+
+
+    }
+}

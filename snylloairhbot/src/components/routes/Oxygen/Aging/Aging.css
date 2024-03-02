@@ -157,6 +157,7 @@
     margin-bottom: 2rem;
     width: 90%;
 }
+
 .buttt{
     margin-left: -7rem;
 }
@@ -184,8 +185,10 @@
     width:50%;
 }
 
-.snylloair-capsulee{
-    width:80%;
+.snylloair-capsuleee{
+    width:30rem;
+    margin-top: 1rem;
+
 }
 
 .butty{
@@ -380,5 +383,389 @@
     color:gray;
     margin-top: 1rem;
     margin-bottom: 2rem;
+
+}
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    
+    .aging-container-one {
+        position: relative;
+        height: 80vh;
+        margin-top: 0;
+    }
+
+    .aging-bg{
+        width:200vw;
+        height: 80vh;
+        margin-left: -50%;
+    }
+
+
+    .aging-container-one-content {
+        margin:auto;
+        margin-top: 10rem; 
+        z-index: 1; 
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .aging-container-one-line1{
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 1rem;
+
+    }
+
+    .aging-container-one-line2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .aging-container-one-line3 {
+        font-size:1rem;
+        width:75%;
+        margin:auto;
+    }
+
+
+
+
+
+    /* *************** */
+
+    .aging-container-two{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+
+    }
+
+
+    .aging-two-left{
+        width:100%;
+    }
+
+    .otto{
+        height: 40vh;
+    }
+
+    .otto-heading{
+        font-size: 1.3rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .otto-line{
+        font-size: 1.1rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        width:90%;
+
+    }
+
+    .aging-two-right{
+        width:100%;
+    }
+
+    .aging-two-content{
+        margin: auto;
+        margin-top: 1rem;
+        text-align: left;
+        width: 100%;
+    }
+
+    .aging-two-heading{
+        font-size: 2rem;
+        font-weight: 700;
+        margin: auto;
+        width:80%;
+    }
+
+    .aging-two-para{
+        margin: auto;
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height:3vh;
+        width: 90%;
+    }
+
+
+
+    /* ****************/
+
+    .aging-container-three{
+        height: auto;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+
+    .aging-three-left{
+        width:100%;
+
+    }
+
+    .aging-three-content{
+        margin: auto;
+        margin-top: 4rem;
+        text-align: left;
+    }
+
+    .aging-three-line1{
+        font-size: 1.6rem;
+        margin: auto;
+        margin-left: 3%;
+        width: 100%;
+        margin-bottom: 1rem;
+        line-height: 4vh;
+    }
+
+    .aging-three-line2{
+        font-size: 1.1rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
+    .buttt{
+        margin: auto;
+    }
+
+    .aging-three-right{
+        width:100%;
+
+    }
+
+    .aging-boy11{
+        height: 40vh;
+        margin: auto;
+    }
+
+
+    /* ************** */
+
+
+    .aging-container-four{
+        height: auto;
+        flex-direction: column-reverse;
+        margin-top: 5rem ;
+    }
+
+    .aging-four-left{
+        width:100%;
+    }
+    
+
+    .snylloair-capsuleee{
+        width:22rem;
+        margin: auto;
+
+    }
+
+    .butty{
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 90%;
+    }
+
+    .aging-four-right{
+        width:100%;
+    }
+
+    .aging-four-content{
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+        width: 95%;
+
+    }
+
+    .aging-four-line1{
+        font-size: 1.75rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        line-height: 5vh;
+    }
+
+
+    .aging-four-line2{
+        font-size: 1rem;
+    }
+
+
+    /* ****************** */
+
+
+    .aging-container-five{
+        position: relative;
+        height: 45vh;
+        margin-bottom: 1rem;
+    }
+
+    .shiny{
+        position: relative;
+        height: 45vh;
+        width:100%;
+        z-index: -1;
+    }
+
+    .aging-five-content{
+        position: absolute;
+        top:22.5%;
+        left: 1%;
+    }
+
+    .aging-five-line1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+
+    .aging-five-line2{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+
+    /* ******************* */
+
+
+
+
+    .aging-container-six{
+        position: relative;
+        height: auto;
+        text-align: left;
+    }
+
+    .aging-six-para{
+        margin: auto;
+        margin-top: 2rem;
+        width:90%;
+    }
+
+    .aging-six-line1{
+        font-size: 2rem;
+        font-weight: 700;
+        color:#CE3B3C;
+    }
+
+
+    .aging-six-line2{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        color: gray;
+
+    }
+
+
+    .aging-boxes{
+        margin: auto;
+        margin-left:10% ;
+        margin-bottom: 3rem;
+        width: 75%; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 0; 
+        text-align: left;
+        
+    }
+
+    .aging-box{
+        margin: auto;
+    }
+
+    .aging-box-line1{
+        font-size: 2rem;
+        margin: auto;
+        color: #500000;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: 90%;
+    }
+
+    .aging-box-line2{
+        font-size: 1.1rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        color: gray;
+        width:90%;
+
+    }
+
+    .aging-box-line3{
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width:90%;
+        color:#CE3B3C;
+    }
+
+    /* .aging-3{
+        margin-top: 7.5rem;
+    } */
+
+    .aging-boy22{
+        height: 40vh;
+        margin-top: 3rem;
+    }
+
+
+    /* *************/
+
+    .aging-container-seven{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .aging-seven-left{
+        width:100%;
+    }
+
+    .aging-boy33{
+        height: 45vh;
+        width: 25rem;
+        margin: auto;
+    }
+
+    .aging-seven-right{
+        width:100%;
+    }
+
+    .aging-seven-content{
+        text-align: left;
+        width:80%;
+        margin: auto;
+    }
+
+    .aging-seven-line1{
+        font-size: 2rem;
+        font-weight: 700;
+        color:#CE3B3C;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .aging-seven-line2{
+        font-size: 1rem;
+
+    }
 
 }

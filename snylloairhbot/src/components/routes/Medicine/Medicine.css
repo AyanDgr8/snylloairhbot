@@ -50,6 +50,9 @@
   width:auto;
 }
 
+.historyy{
+    display: none;
+}
 
 /* *********** */
 
@@ -85,4 +88,111 @@
     margin-left: -5rem;
     margin-top: 5rem;
     margin-bottom: 0;
+}
+
+.contrad{
+    display: none;
+}
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+
+
+    .medicine-cotainer-mechanisms{
+        margin: 1rem;
+        margin-top: 0;
+    
+    }
+    
+    .medicine-cotainer-mechanisms-heading{
+        font-size: 2rem;
+        margin: auto;
+        margin-top: 2rem;
+        width: 80%;
+    }
+    
+    .mechanism-hbot{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        text-align: center;
+    }
+    
+    
+    .our-color{
+        color: #CE3B3C;
+    
+    }
+    /* *******/
+
+        
+    .medicine-history {
+        width: 100%;
+    }
+    
+    .history-heading {
+        font-size: 2.1rem;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    
+
+    .history{
+        display: none;
+
+    }
+    
+
+    .historyy{
+        display: block;
+        width:30rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+
+    }
+
+    /* ******** */
+
+    .medicine-clinic-contra{
+        background-color: white;
+        position: relative;
+        display: block;
+        margin-bottom: 15rem;
+    }
+    
+    .medicine-sec-two-left{
+        width: 100%;
+    }
+    
+    .clinic{
+        width:110%;
+        height: min-content;
+        margin-left: 0;
+    }
+    
+    .medicine-sec-two-right{
+        width: 100%;
+        background-color: white;
+        margin-top: 1rem;
+    }
+    
+    .contra{
+        display: none;
+    }
+    
+    .contrad{
+        display: block;
+        width:15rem;
+        margin: auto;
+        margin-top: 4rem;
+        background-color: white;
+    }
+
+
 }

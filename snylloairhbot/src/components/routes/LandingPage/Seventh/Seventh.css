@@ -46,3 +46,51 @@
     text-align: center;
     color: gray;
 }
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+    
+    .seventh-page-content{
+        width:100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .seventh-page-heading{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .seventh-page-boxes{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .seventh-page-box{
+        width:30%;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .seventh-icon{
+        width:3rem;
+    }
+
+    .seventh-box-subheading{
+        font-size: 1.25rem;
+
+    }
+
+    .seventh-box-caption{
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: auto;
+        width: 80%;
+    }
+
+}

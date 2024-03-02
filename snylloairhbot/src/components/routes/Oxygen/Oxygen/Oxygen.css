@@ -236,3 +236,126 @@
     background-color: #460c07; 
     margin: 10px auto; 
 }
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .oxygen-container-one-line3 {
+        width:70%;
+    }
+    
+
+    /* ****************** */
+
+
+
+    .oxygen-container-two {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .oxygen-bg2{
+        position: relative;
+        width:140vw;
+        height: 100vh;
+    }
+
+
+
+    .oxygen-container-two-content {
+        position: absolute;
+        margin:auto;
+        margin-top: 1rem; 
+        z-index: 1; 
+        text-align: start;
+        padding: 20px;
+        width:100%;
+        
+    }
+
+    .oxygen-container-two-line1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        
+    }
+
+    .oxygen-container-two-line2{
+        width:60%;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .oxygen-container-two-paras {
+        font-size:1rem;
+        width:60%;
+        line-height: 2.2vh;
+        
+    }
+
+
+    /* ************ */
+
+
+    .oxygen-container-three {
+        margin: auto;
+        height: 135vh;
+        flex-direction: column;
+    }
+
+    .oxygen-container-three-left{
+        width:100%;
+    }
+
+    .pink-mask{
+        width:35rem;
+        height: auto;
+        margin: auto;
+    }
+
+    .oxygen-container-three-right{
+        width:100%;
+    }
+
+    .oxygen-container-three-right-content{
+        width:90%;
+        text-align: start;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .oxygen-container-three-right-heading{
+        font-size: 1.5rem;
+    }
+
+
+    .oxygen-container-three-right-para{ 
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        line-height: 2.2vh;
+
+    }
+
+
+    /* **************** */
+
+
+    .oxygen-container-four-paras{
+        font-size: 1rem;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2.1vh;
+
+    }
+
+
+    
+}

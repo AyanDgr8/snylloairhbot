@@ -59,7 +59,7 @@ const Company = () => {
 
         </section>
 
-        {/* *************************8 */}
+        {/* ************************* */}
 
         <section className='company-container-three'>
             <div className='mission-vision-box'>

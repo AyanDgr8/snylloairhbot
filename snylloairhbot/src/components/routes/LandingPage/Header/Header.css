@@ -1,43 +1,44 @@
 /* src/components/routes/LandingPage/Header/Header.css */
 
+
 header {
     width: 100%;
     display: flex;
     flex-direction: row;
     position: fixed;
     top:0;
-    
 }
 
-
-.hbot_header{
+.hbot_header {
     background-color: #000000dc;
     z-index: 1000;
-
 }
 
-.snylloair-logo{
+.snylloair-logo {
     height: 2.5rem;
-    width:10rem;
+    width: 10rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 3rem;
 }
 
-.header-buttons{
+.header-buttons {
     display: flex;
     align-items: center;
-    margin-left:15rem;
+    margin-left: 15rem;
 }
 
-.button-h{
+.button-h {
     text-decoration: none;
     color: white;
-    margin:5px;
-    margin-left:1.5rem;
-
+    margin: 5px;
+    margin-left: 1.5rem;
 }
 
+.button-h:hover {
+    background-color: #ddd;
+    color: black;
+}
 
 /* Styles for dropdown */
 .dropdown {
@@ -53,6 +54,10 @@ header {
     font-size: 1rem;
 }
 
+.arrow {
+    vertical-align: -15%;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -60,7 +65,7 @@ header {
     min-width: 175px;
     text-align: center;
     z-index: 1;
-    margin-top: 1px;
+    margin-top: 2px;
 }
 
 .dropdown-content a {
@@ -80,5 +85,91 @@ header {
 }
 
 
+
+.mobile-menu{
+    display: none;
+}
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top:0;
+        background-color: black;
+    }
+    .header-buttons {
+        display: none; 
+    }
+    .hbot_header {
+        background-color: black;
+    }
+
+    .snylloair-logo {
+        margin: 1rem ;
+    }
+
+    .hamburger{
+        margin-top:0;
+        color: white;
+        font-size: 2.25rem;
+
+    }
+    
+    .mobile-menu {
+        background-color: #000000dc;
+        display: inline;
+        overflow: hidden;
+        position: absolute;
+        width: 50%;
+        top:15%;
+        right: 0;
+    }
+
+
+    .mobile-menu .button-h{
+        background-color: #000000dc;
+        background-color: transparent;
+        color: white;
+        padding: 14px 16px;
+        font-size: 0.9rem;
+        display: block;
+
+    }
+
+    /* Styles for dropdown */
+    .dropdown {
+        position: relative;
+        margin: 1px;
+    }
+
+    .dropbtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #000000dc;
+    }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 1%;
+        width: 100px;
+        text-align: center;
+        z-index: 1000;
+        margin-top: 10px;
+        background-color: gray;
+    }
+    
+    .arrow {
+        vertical-align: 10vh;
+        margin-left: 10vw;
+    }
+}
 
 

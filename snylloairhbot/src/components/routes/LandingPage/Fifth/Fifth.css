@@ -23,6 +23,25 @@
     width:50%;
 }
 
+.fifth-page-right-heading{
+    margin-top: 10rem;
+    margin-left: 3rem;
+    
+}
+
+
+.fifth-page-right-heading h3{
+    margin: auto;
+    color: #CE3B3C;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.fifth-page-right-heading-line1{
+    font-weight: 600;
+
+}
 .fifth-page-right-para{
     font-size: 1.1rem;
     font-weight: 400;
@@ -31,4 +50,57 @@
     margin-left: 2rem;
     color:gray;
     width:80%;
+}
+
+
+
+
+/* for mobile screens  */
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+    
+
+    .fifth-page-content{
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+    
+    .fifth-page-right{
+        width:100%;
+    }
+
+    .fifth-page-right-heading{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    
+    .fifth-page-right-heading h3{
+        margin: auto;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        text-align: left;
+    }
+    
+    .fifth-page-right-heading-line1{
+        font-weight: 600;
+    
+    }
+    
+    .fifth-page-right-para{
+        width:90%;
+        margin: auto;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .snylloair-capsule{
+        width:20rem;
+        margin-left: 20%;
+        margin-top: 1rem;
+    }
 }
