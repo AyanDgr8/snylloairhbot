@@ -6,6 +6,7 @@ import LazyLoad from 'react-lazyload';
 import Header from '../LandingPage/Header/Header';
 import Footer from '../LandingPage/Footer/Footer';
 import LowerFooter from '../LandingPage/LowerFooter/LowerFooter';
+import FormContact from '../LandingPage/FormContact/FormContact';
 
 
 const Company = () => {
@@ -214,6 +215,7 @@ const Company = () => {
 
         </section>
 
+        <FormContact />
 
         <Footer />
         <LowerFooter />

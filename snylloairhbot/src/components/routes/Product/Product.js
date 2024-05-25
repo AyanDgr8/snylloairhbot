@@ -9,6 +9,7 @@ import Second from '../LandingPage/Second/Second';
 import Third from '../LandingPage/Third/Third';
 import Video from '../LandingPage/Video/Video';
 import Ninth from '../LandingPage/Ninth/Ninth';
+import FormContact from '../LandingPage/FormContact/FormContact';
 
 import { FaAngleRight } from 'react-icons/fa';
 
@@ -101,6 +102,8 @@ const Product = () => {
                 </div>
             </div>
         </section>
+
+        <FormContact />
 
         <Footer />
         <LowerFooter />

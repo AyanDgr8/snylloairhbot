@@ -12,7 +12,6 @@ const Eleventh = () => {
                 The SnylloAir HBOT produces strong hyperoxia that generates different benefits for the organism.
             </div>
             <div className="eleventh-boxes">
-
                 <div className="eleventh-box">
                     <div className="eleventh-icon">
                         <LazyLoad>

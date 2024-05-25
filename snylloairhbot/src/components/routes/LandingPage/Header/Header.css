@@ -15,8 +15,8 @@ header {
 }
 
 .snylloair-logo {
-    height: 2.5rem;
-    width: 10rem;
+    height: 3.5rem;
+    width: 14rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 3rem;
@@ -25,7 +25,7 @@ header {
 .header-buttons {
     display: flex;
     align-items: center;
-    margin-left: 15rem;
+    margin-left: 15%;
 }
 
 .button-h {
@@ -110,6 +110,9 @@ header {
 
     .snylloair-logo {
         margin: 1rem ;
+        margin-left: -0.5rem;
+        width:  75% ;
+        height: 3rem;
     }
 
     .hamburger{

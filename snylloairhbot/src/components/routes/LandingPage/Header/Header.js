@@ -1,11 +1,11 @@
 // src/components/routes/LandingPage/Header/Header.js
 
 
-import React, { useState, useRef }  from 'react';
+import React, { useState }  from 'react';
 import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
 import './Header.css';
-import { FaAngleDown, FaBars } from 'react-icons/fa';
+import { FaAngleDown } from 'react-icons/fa';
 
 const Header = () =>{
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,7 +21,6 @@ const Header = () =>{
     return(
         <div>
             <header className="hbot_header">
-
                 <div className="logo-header-hbot">
                     <Link to="/" className="logo-link">
                         <LazyLoad>
